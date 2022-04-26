@@ -17,3 +17,12 @@ export const DivBar = styled.div`
 
     
 `
+export const SlacaHeader = styled.div`
+    background-color: orange;
+
+    h1{
+        color: white;
+    }
+
+    
+`
