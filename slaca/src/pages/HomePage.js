@@ -4,6 +4,7 @@ import NavBar from "../components/NavBar"
 import VideoPage from "../components/VideoPage";
 import Text from "../components/Text"
 import CreateTopic from "../components/CreateTopic";
+import Footer from "../components/Footer";
 
 const HomePage = () => {
     return(
@@ -16,6 +17,7 @@ const HomePage = () => {
                 <VideoPage/>
                 <Text/>
                 <CreateTopic/>
+                <Footer/>
             </div>
             
             

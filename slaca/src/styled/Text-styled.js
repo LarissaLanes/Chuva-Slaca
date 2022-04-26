@@ -19,7 +19,7 @@ export const DivText = styled.div`
             border: solid 1px purple;
 
             h2{
-                color: ;
+                color: #4E4E4E;
             }
         }
         
