@@ -16,7 +16,7 @@ export const Section1 = styled.div`
 
     div{
         /* border: solid orange 1px; */
-        margin-left: 10em;
+        margin-left: 9.5em;
         width: 43vw;
         height: 13vh;
 
@@ -27,7 +27,7 @@ export const Section1 = styled.div`
 
     section{
         /* border: solid orange 1px; */
-        width: 15vw;
+        width: 14.5vw;
         height: 13vh;
         display: flex;
         flex-direction:column;
@@ -37,8 +37,6 @@ export const Section1 = styled.div`
         h4{
             /* border: solid orange 1px; */
             color:#ED7839;
-            
-            
         }
 
         ul{
@@ -55,12 +53,16 @@ export const Section1 = styled.div`
                     height:3em;
                     width: 4em;
                     background: #ED7839;
-                    border-radius: 3px;
+                    border-radius: 4px;
 
                     img{
                         height: 1.6em;
                     }
                     
+                }
+
+                button:hover{
+                    background: #FFB354;
                 }
             }
 
@@ -80,7 +82,7 @@ export const Section2 = styled.div`
         /* border: solid red 1px; */
         width: 43vw;
         height: 49vh;
-        margin-left: 10em;
+        margin-left: 9.5em;
 
         h1{
             color: white;
@@ -151,7 +153,7 @@ export const Section2 = styled.div`
 
     section{
         /* border: solid red 1px; */
-        width: 15vw;
+        width: 14.5vw;
         height: 49vh;
         display: grid;
         grid-template-rows: 0.5fr 4fr;

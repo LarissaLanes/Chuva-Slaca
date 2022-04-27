@@ -11,7 +11,7 @@ export const DivText = styled.div`
 
     div{
         /* border: solid 1px purple; */
-        width: 70vw;
+        width: 64vw;
        
 
         section{

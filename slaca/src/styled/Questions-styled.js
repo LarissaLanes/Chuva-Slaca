@@ -8,7 +8,7 @@ export const DivQuestions = styled.div`
 
     article{
         border:  1px solid #E7E7E7;
-        width: 66vw;
+        width: 60vw;
         padding: 1em;
         border-radius: 4px;
         margin: 1em;

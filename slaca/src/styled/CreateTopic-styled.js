@@ -10,7 +10,7 @@ export const DivCreateTopic = styled.div`
 
     div{
         /* border:solid 1px green; */
-        width: 70vw;
+        width: 64vw;
         display: grid;
         /* grid-template-rows: 1fr 1fr; */
 

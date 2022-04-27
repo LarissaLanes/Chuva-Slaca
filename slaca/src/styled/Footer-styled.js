@@ -5,7 +5,7 @@ export const DivFooter = styled.div`
     margin-top: 4em;
     display: grid;
     grid-template-columns: 0.5fr 2fr;
-    width: 74vw;
+    width: 71vw;
     height: 20vh;;
     margin-left: 2em;
     gap:1em;
