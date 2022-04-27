@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const DivFooter = styled.div`
     border:solid 1px blue;
-    margin-top: 2em;
+    margin-top: 4em;
     display: grid;
     grid-template-columns: 0.5fr 2fr;
     width: 74vw;
@@ -20,5 +20,9 @@ export const DivFooter = styled.div`
 
     section{
         border:solid;
+
+        p{
+            font-size: 
+        }
     }
 `

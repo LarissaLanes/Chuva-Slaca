@@ -1,3 +1,8 @@
 .background-image{
     background-image: url("../assets/capa-video.png");
 }
+
+.border-create{
+    border: solid 1px #ECECEC;
+    border-radius: 3px;
+}
