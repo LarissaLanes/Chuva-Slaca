@@ -1,5 +1,5 @@
 import {DivFooter} from "../styled/Footer-styled"
-import logoGaloa from "../assets/galoá-logo.png"
+import logoGaloa from "../assets/logo-galoá.svg"
 
 const Footer = () => {
     return(

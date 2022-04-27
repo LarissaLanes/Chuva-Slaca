@@ -63,6 +63,7 @@ export const Section1 = styled.div`
 
                 button:hover{
                     background: #FFB354;
+                    cursor: pointer;
                 }
             }
 
