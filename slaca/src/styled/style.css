@@ -6,3 +6,13 @@
     border: solid 1px #ECECEC;
     border-radius: 3px;
 }
+
+h5{
+    color:#F0813D;
+    display: inline;
+    font-size: 15px;
+}
+
+p{
+    color: #595959;
+}

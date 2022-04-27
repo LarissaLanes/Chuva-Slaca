@@ -2,6 +2,7 @@ import { DivQuestions } from "../styled/Questions-styled";
 import MoreVertRoundedIcon from '@mui/icons-material/MoreVertRounded';
 import FavoriteRoundedIcon from '@mui/icons-material/FavoriteRounded';
 
+
 const Questions = () => {
     return(
         <DivQuestions>
