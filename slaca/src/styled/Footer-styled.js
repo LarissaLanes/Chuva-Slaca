@@ -47,5 +47,11 @@ export const DivFooter = styled.div`
             font-size: 17px;
             color:#4D4D4D;
         }
+
+        h5{
+            color: #5C5C5C;
+            font-size:16px;
+        }
     }
+
 `

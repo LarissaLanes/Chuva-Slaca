@@ -11,7 +11,8 @@ const Footer = () => {
                 
             <section>
                 <p>
-                Preservar a memória e ampliar o acesso ao conhecimento científico gerado em eventos é a razão de ser da plaforma Galoá Proceedings.
+                <h5>Preservar a memória e ampliar o acesso ao conhecimento científico </h5> 
+                gerado em eventos é a razão de ser da plaforma Galoá Proceedings.
                 </p>
                 <p>
                 Os trabalhos publicados aqui têm maior alcance e ficam disponível para todo a comunidade científica, mantendo aceso o debate científico fomentado
