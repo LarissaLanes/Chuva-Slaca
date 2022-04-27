@@ -1,5 +1,14 @@
 .background-image{
     background-image: url("../assets/capa-video.png");
+    z-index: 1;
+    border-radius: 3px;
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.background-image:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .border-create{

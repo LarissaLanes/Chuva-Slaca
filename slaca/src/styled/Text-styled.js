@@ -16,7 +16,7 @@ export const DivText = styled.div`
 
         section{
             border: solid 1px #ECECEC;
-            border-radius: 3px;
+            border-radius: 3px 3px 0px 0px;
             background-color:#FDF1EB;
             /* border: solid 1px purple; */
 

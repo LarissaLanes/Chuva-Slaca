@@ -3,10 +3,10 @@ import styled from "styled-components"
 export const DivVideo = styled.div`
     display: grid;
     grid-template-rows: 0.5fr 5fr;
-    height: 76vh; 
+    height: 68vh; 
 
     div{
-        border: solid grey 1px;
+        /* border: solid grey 1px; */
     }
 `
 
@@ -15,8 +15,8 @@ export const Section1 = styled.div`
     grid-template-columns: 5fr 2fr;
 
     div{
-        border: solid orange 1px;
-        margin-left: 4em;
+        /* border: solid orange 1px; */
+        margin-left: 6em;
         width: 43vw;
         height: 13vh;
 
@@ -26,7 +26,7 @@ export const Section1 = styled.div`
     }
 
     section{
-        border: solid orange 1px;
+        /* border: solid orange 1px; */
         width: 15vw;
         height: 13vh;
         display: flex;
@@ -35,13 +35,14 @@ export const Section1 = styled.div`
             
         
         h4{
-            border: solid orange 1px;
+            /* border: solid orange 1px; */
             color:#ED7839;
+            
             
         }
 
         ul{
-            border: solid blue 1px;
+            /* border: solid blue 1px; */
             gap:1em;
             list-style:none;
             display: flex;
@@ -70,29 +71,77 @@ export const Section2 = styled.div`
  
 
     div{
-        border: solid red 1px;
+        /* border: solid red 1px; */
         width: 43vw;
-        height: 50vh;
-        margin-left: 4em;
+        height: 49vh;
+        margin-left: 6em;
 
         h1{
             color: white;
+            
         }
 
         article{
-            display: flex;
+            z-index: 0;
+            background: rgba(141, 53, 6, 0.521); 
+            width: 41vw;
+            height: 46vh;
+            position:absolute;
+            /* justify-content: center; */
+            border-radius: 3px;      
+            /* border: solid;      */
+            padding :1em ;
+            /* display: flex;
+            flex-direction: column; */
+            /* display: inline; */
             
 
-
-            h1,h3{
+            h1{
                 color: white;
+                /* display: inline; */
+                /* margin-bottom: 70vh; */
+                font-size:34px; 
+               
+            }
+
+            div{
+                height: 17vh;
+                width: 22vw;
+                /* border: solid; */
+                margin-left: 2em;
+                display: inline-block;
+            }
+
+            h3{
+                color: white;
+                /* display: inline; */
+                /* margin-bottom: 70vh; */
+                font-size:22px; 
+            }
+
+            h2{
+                color: white;
+            }
+
+            img{  
+                height: 10vh;
+                width: 5vw;
+                border-radius: 50%;
+                border: solid 1px #ED7839;
+                padding: 5px;
+                margin-top: 11em;
+                display: inline;
+                /* margin-top: 20vh ; */
+                /* display: inline; */
+                
+               
             }
         }
 
     }
 
     section{
-        border: solid red 1px;
+        /* border: solid red 1px; */
         width: 15vw;
         height: 50vh;
         display: grid;
@@ -100,17 +149,19 @@ export const Section2 = styled.div`
         
 
         article{
-            border:solid 1px purple;
+            /* border:solid 1px purple; */
             background-color:#FDF1EB;
+            border-bottom: solid 1px #ECECEC;
             
             h2{
                 color:#4E4E4E;
+                margin-left: 1em;
             }
         }
     }
 
     aside{
-        border:solid 1px;
+        /* border:solid 1px; */
         margin:1em;
     }
 `
