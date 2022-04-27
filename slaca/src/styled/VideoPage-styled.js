@@ -16,7 +16,7 @@ export const Section1 = styled.div`
 
     div{
         /* border: solid orange 1px; */
-        margin-left: 6em;
+        margin-left: 10em;
         width: 43vw;
         height: 13vh;
 
@@ -47,13 +47,19 @@ export const Section1 = styled.div`
             list-style:none;
             display: flex;
             flex-direction:row;
-            
 
             li{
                 
                 button{
                     border:none;
                     height:3em;
+                    width: 4em;
+                    background: #ED7839;
+                    border-radius: 3px;
+
+                    img{
+                        height: 1.6em;
+                    }
                     
                 }
             }
@@ -74,7 +80,7 @@ export const Section2 = styled.div`
         /* border: solid red 1px; */
         width: 43vw;
         height: 49vh;
-        margin-left: 6em;
+        margin-left: 10em;
 
         h1{
             color: white;
@@ -110,6 +116,8 @@ export const Section2 = styled.div`
                 /* border: solid; */
                 margin-left: 2em;
                 display: inline-block;
+                line-height: 0.5em;
+               
             }
 
             h3{
@@ -117,6 +125,7 @@ export const Section2 = styled.div`
                 /* display: inline; */
                 /* margin-bottom: 70vh; */
                 font-size:22px; 
+                
             }
 
             h2{
@@ -143,7 +152,7 @@ export const Section2 = styled.div`
     section{
         /* border: solid red 1px; */
         width: 15vw;
-        height: 50vh;
+        height: 49vh;
         display: grid;
         grid-template-rows: 0.5fr 4fr;
         
@@ -162,6 +171,22 @@ export const Section2 = styled.div`
 
     aside{
         /* border:solid 1px; */
-        margin:1em;
+        padding:1em;
+        position: static;
+        /* line-height: 1.5em; */
+
+        h5{
+            color: #4E4E4E;
+            font-size: 0.9em;
+        }
+
+        p{
+            color: #757575;
+        }
+
+        h4{
+            color: #BFBFBF;
+            font-size: 0.9em;
+        }
     }
 `

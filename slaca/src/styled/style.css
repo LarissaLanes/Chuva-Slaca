@@ -25,3 +25,16 @@ h5{
 p{
     color: #595959;
 }
+
+#Button-download{
+    width: 8vw;
+    color: white;
+    font-size: 0.9em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Button-start{
+    color: white;
+}

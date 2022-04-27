@@ -85,6 +85,7 @@ export const DivNewTopic = styled.div`
         h3{
             font-size: 16px;
             color: #707070;
+            line-height: 0.5em;
         }
 
         p{
@@ -122,10 +123,12 @@ export const DivNewTopic = styled.div`
         h5{
             color: #5C5C5C;
             text-decoration:none;
+            line-height: 0.5em;
         }
 
         p{
             color: #4D4D4D;
+            
         }
 
     

@@ -1,8 +1,11 @@
 import { DivVideo, Section1, Section2 } from "../styled/VideoPage-styled";
 import "../styled/style.css";
 import perfilVideo from "../assets/perfil.png"
+import StarRoundedIcon from '@mui/icons-material/StarRounded';
+import DownloadRoundedIcon from '@mui/icons-material/DownloadRounded';
 import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
+import doi from "../assets/doi.png"
 
 const VideoPage = () => {
     return(
@@ -14,13 +17,16 @@ const VideoPage = () => {
                 <section>
                     <ul>
                         <li>
-                            <button>Download</button>
+                            <button id="Button-download">
+                                <DownloadRoundedIcon/>
+                                Download
+                            </button>
                         </li>
                         <li>
-                            <button>Estrela icon</button>
+                            <button id="Button-start"><StarRoundedIcon/></button>
                         </li>
                         <li>
-                            <button>doi icon</button>
+                            <button><img src={doi}/></button>
                         </li>
                     </ul>
                 <h4>COMO CITAR ESSE TRABALHO?</h4>
@@ -47,13 +53,17 @@ const VideoPage = () => {
                     </article>
                     <aside>
                         <p>
-                        Tipo de Apresentação: Pôster
+                        Tipo de Apresentação: 
+                        <h5> Pôster</h5>
                         <br/>
-                        Eixo temático: Alimentação e saúde (AS) 
+                         <br/>
+                        Eixo temático: 
+                        <h5>Alimentação e saúde (AS) </h5>
                         <br/>
-                        Palavras-chaves: Alimentos funcionais, alimentação escolar.
+                        Palavras-chaves: <h5>Alimentos funcionais, alimentação escolar.</h5>
                         <br/>
-                        Autores:
+                        <br/>
+                        <h5>  Autores:</h5>
                         <br/>
                         Galileo Galilei¹
                         <br/>
@@ -65,10 +75,13 @@ const VideoPage = () => {
                         <br/>
                         Stephen Hawking⁴
                         <br/>
+                        <h4>
                          ¹Universidade Estadual de Campinas
                         ²Universidade de São Paulo
                         ³Instituto Nacional de Pesquisas Espaciais
-                        ⁴Universidade Federal do Rio de Janeiro
+                        ⁴Universidade Federal do Rio de Janeiro.
+                        </h4>
+                       
                         </p>
                        
                     </aside>

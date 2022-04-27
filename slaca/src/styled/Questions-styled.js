@@ -24,6 +24,8 @@ export const DivQuestions = styled.div`
         h4{
             color: #ED7839;
             font-size:16px;
+            line-height: 0.5em;
+            
         }
 
         h5{
