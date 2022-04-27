@@ -1,4 +1,6 @@
 import { DivQuestions } from "../styled/Questions-styled";
+import MoreVertRoundedIcon from '@mui/icons-material/MoreVertRounded';
+import FavoriteRoundedIcon from '@mui/icons-material/FavoriteRounded';
 
 const Questions = () => {
     return(
@@ -8,6 +10,8 @@ const Questions = () => {
                     <h5>Carlos Henrique Santos</h5>
                 <p>Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...</p>
                 <div>
+                    <MoreVertRoundedIcon color="warning"/>
+                    <FavoriteRoundedIcon color="warning" />
                     1 like
                     1 resposta
                 </div>
@@ -17,6 +21,8 @@ const Questions = () => {
                     <h5>Carlos Henrique Santos</h5>
                 <p>Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...</p>
                 <div>
+                    <MoreVertRoundedIcon color="warning" />
+                    <FavoriteRoundedIcon color="warning"/>
                     1 like
                     1 resposta
                 </div>

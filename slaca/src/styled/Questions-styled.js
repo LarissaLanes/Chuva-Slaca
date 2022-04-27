@@ -15,7 +15,25 @@ export const DivQuestions = styled.div`
         box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
 
         div{
-            width: 66vw;;
+            width: 66vw;
+            color: #757575;
+            display: flex;
+            gap:1em;
+        }
+
+        h4{
+            color: #ED7839;
+            font-size:16px;
+        }
+
+        h5{
+            color: #5C5C5C;
+        }
+
+        p{
+            color: #4D4D4D;
+            font-size:14px;
+
         }
     }
 

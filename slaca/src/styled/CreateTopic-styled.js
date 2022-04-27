@@ -21,6 +21,7 @@ export const DivCreateTopic = styled.div`
 
             h2{
                 color: #4E4E4E;
+                margin-left: 1em;
             }
 
         }

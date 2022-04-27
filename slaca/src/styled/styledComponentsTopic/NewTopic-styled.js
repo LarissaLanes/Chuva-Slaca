@@ -64,7 +64,8 @@ export const DivNewTopic = styled.div`
     justify-content:center;
     /* margin-right: 69vw; */
     margin-bottom: 10em;
-    
+    transition: all 0.9s;
+    -webkit-filter: transition(1px);
 
     div{
         /* border:solid red; */
