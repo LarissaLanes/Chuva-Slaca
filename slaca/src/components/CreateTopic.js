@@ -14,8 +14,8 @@ const CreateTopic = () => {
                 </section>
                 <>
                     {/* <Created/> */}
-                    {/* <PostQuestion/> */}
-                    <NewTopic/>
+                    <PostQuestion/>
+                    {/* <NewTopic/> */}
                 </>
                 <>
                     <Questions/>

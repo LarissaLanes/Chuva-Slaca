@@ -11,6 +11,7 @@ export const DivCreateTopic = styled.div`
     div{
         /* border:solid 1px green; */
         width: 64vw;
+        max-width: 64vw;
         display: grid;
         /* grid-template-rows: 1fr 1fr; */
 
@@ -18,6 +19,8 @@ export const DivCreateTopic = styled.div`
             background-color:#FDF1EB ;
             border-bottom: solid 1px #ECECEC;
             border-radius: 3px 3px 0px 0px;
+            width: 64vw;
+            max-width: 64vw;
 
             h2{
                 color: #4E4E4E;

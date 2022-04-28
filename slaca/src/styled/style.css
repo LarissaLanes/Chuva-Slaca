@@ -11,9 +11,21 @@
     transform: scale(1.1);
 }
 
+#Input{
+    border:none;
+    /* background-color: white; */
+}
+
 .border-create{
     border: solid 1px #ECECEC;
+    border-radius: 0px 0px 4px 4px;
+}
+
+
+.border-question{
+    border: solid 1px #CCCCCC;
     border-radius: 3px;
+    background-color: #EAF1F2;
 }
 
 h5{
