@@ -10,7 +10,7 @@ import dowload from "../assets/download.png"
 
 const VideoPage = () => {
     return(
-        <DivVideo>
+        <DivVideo id="presentation">
             <Section1>
                 <div>
                     <h2>Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP </h2>
@@ -34,7 +34,7 @@ const VideoPage = () => {
                 <h4>COMO CITAR ESSE TRABALHO?</h4>
                 </section>
             </Section1>
-            <Section2 >
+            <Section2 id="theme">
                 <div className="background-image">
                     <article>
                    
@@ -49,7 +49,7 @@ const VideoPage = () => {
                   </>
                     </article>
                 </div>
-                <section className="border-create">
+                <section className="border-create" >
                     <article>
                         <h2>Detalhes</h2>
                     </article>

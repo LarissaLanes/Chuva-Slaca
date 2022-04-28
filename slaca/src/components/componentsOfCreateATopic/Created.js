@@ -7,9 +7,16 @@ import hands2 from "../../assets/Vectorhands2.png"
 import plant from "../../assets/Vectorplants.png"
 import head from "../../assets/Vectorhead.png"
 import corp from "../../assets/Vectorcorp.png"
+import { useContext } from "react";
+import GlobalStateContext from "../../global/GlobalStateContext";
+import { useHistory } from "react-router";
 
 
 const Created = () => {
+   const {handleClickFalse} = useContext(GlobalStateContext)
+   const history = useHistory()
+
+
     return(
         <DivCreated>
             <h3>Compartilhe suas ideias ou dúvidas com os autores!</h3>
@@ -37,7 +44,7 @@ const Created = () => {
                     </li>
                 </ul>
             <p>Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus questionamentos ou sugestões para o autor!</p>
-            <button>
+            <button onClick={handleClickFalse}>
                 <AddRoundedIcon fontSize="large"/>
                 criar tópico
             </button>

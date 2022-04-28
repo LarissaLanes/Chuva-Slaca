@@ -1,14 +1,19 @@
 import { DivNewTopic } from "../../styled/styledComponentsTopic/NewTopic-styled";
 import DoneOutlineRoundedIcon from '@mui/icons-material/DoneOutlineRounded';
 import check from "../../assets/check.png"
+import { useContext } from "react";
+import GlobalStateContext from "../../global/GlobalStateContext";
+import {useHistory} from "react-router-dom"
 
 const NewTopic = () => {
+    const {handleSecondaryClickTrue} = useContext(GlobalStateContext)
+    const history = useHistory()
     return(
         <DivNewTopic>
             <h3>Seu tópico foi enviado com sucesso! :D</h3>
             <p>Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!</p>
             <h5>Descubra outros trabalhos!</h5>
-            <button>criar novo tópico</button>
+            <button onClick={handleSecondaryClickTrue}>criar novo tópico</button>
             <aside>
             <div>
                 {/* <DoneOutlineRoundedIcon color="action"/> */}

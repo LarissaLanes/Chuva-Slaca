@@ -32,6 +32,7 @@ export const DivBar = styled.div `
                     color:#725C5C;
                     font-size: 1.3em;
                     margin-left:1em;
+                    text-decoration: none;
                     /* border: solid green; */
                 }
             }

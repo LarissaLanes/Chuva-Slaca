@@ -8,8 +8,10 @@ import { useState } from "react";
 import { useContext } from "react";
 import GlobalStateContext from "../global/GlobalStateContext";
 import { useHistory } from "react-router";
+import Footer from "./Footer";
 
-const CreateTopic = () => {
+const ChangeState = () => {
+    const {secondaryState, handleClickTrue} = useContext(GlobalStateContext)
 
     return(
         <DivCreateTopic id="works">
@@ -17,7 +19,7 @@ const CreateTopic = () => {
                 <section>
                     <h2>Discussões</h2>
                 </section>
-                <Created/>
+                {secondaryState ? (<PostQuestion/>) : ( <NewTopic/>)}
                 <>
                     <Questions/>
                     <Questions/>
@@ -27,4 +29,4 @@ const CreateTopic = () => {
     )
 }
 
-export default CreateTopic;
+export default ChangeState;

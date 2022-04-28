@@ -86,3 +86,7 @@ p{
 .response2{
     border-bottom: #cfcfcf solid 1px;
 }
+
+#iconButton-back{
+    border-radius: 0px 0px 0px 0px;
+}

@@ -1,12 +1,16 @@
 import {DivFooter} from "../styled/Footer-styled"
 import logoGaloa from "../assets/logo-galoá.svg"
+import { useContext } from "react"
+import GlobalStateContext from "../global/GlobalStateContext"
 
 const Footer = () => {
+
+    
     return(
-        <DivFooter>
+        <DivFooter id="contact">
             <div>
             <img src={logoGaloa}/>
-                <button>Saiba mais</button>
+                <button href="">Saiba mais</button>
             </div>
                 
             <section>

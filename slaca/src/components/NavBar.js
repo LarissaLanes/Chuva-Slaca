@@ -13,22 +13,22 @@ const NavBar = () => {
             <div>
                 <ul>
                     <li>
-                        <a>Apresentação</a>
+                        <a href="#presentation">Apresentação</a>
                     </li>
                     <li>
-                        <a>Comitês</a>
+                        <a href="#committee">Comitês</a>
                     </li>
                     <li>
-                        <a>Autores</a>
+                        <a href="#authors">Autores</a>
                     </li>
                     <li>
-                        <a>Eixos temáticos</a>
+                        <a href="#theme">Eixos temáticos</a>
                     </li>
                     <li>
-                        <a>Trabalhos</a>
+                        <a href="#works">Trabalhos</a>
                     </li>
                     <li>
-                        <a>Contato</a>
+                        <a href="#contact">Contato</a>
                     </li>
                 </ul>
             </div>

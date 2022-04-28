@@ -4,7 +4,7 @@ import "../styled/style.css"
 
 const Text = () => {
     return(
-        <DivText>
+        <DivText id="authors">
             <div className="border-create">
                 <section>
                     <h2>Resumo</h2>

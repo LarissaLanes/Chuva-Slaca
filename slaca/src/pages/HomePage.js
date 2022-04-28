@@ -5,8 +5,15 @@ import VideoPage from "../components/VideoPage";
 import Text from "../components/Text"
 import CreateTopic from "../components/CreateTopic";
 import Footer from "../components/Footer";
+import Created from "../components/componentsOfCreateATopic/Created";
+import { useContext } from "react";
+import GlobalStateContext from "../global/GlobalStateContext";
+import ChangeState from "../components/ChangeState";
 
 const HomePage = () => {
+    const {initialState} = useContext(GlobalStateContext)
+
+
     return(
         <DivHome>
             <div>
@@ -16,7 +23,8 @@ const HomePage = () => {
                 <Header/>
                 <VideoPage/>
                 <Text/>
-                <CreateTopic/>
+                {initialState ? (<CreateTopic/>) : (<ChangeState/>)}
+                {/* <CreateTopic/> */}
                 <Footer/>
             </div>
             
