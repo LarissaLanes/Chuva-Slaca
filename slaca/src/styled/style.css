@@ -1,0 +1,88 @@
+.background-image{
+    background-image: url("../assets/capa-video.png");
+    z-index: 1;
+    border-radius: 3px;
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.fundo-png{
+    background-image: url("../assets/Vector\ 22fundo.png");
+    height: 3em;
+    width: 3.2em;
+}
+
+.background-image:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#Input{
+    border:none;
+    /* background-color: white; */
+}
+
+.border-create{
+    border: solid 1px #ECECEC;
+    border-radius: 0px 0px 4px 4px;
+}
+
+
+.border-question{
+    border: solid 1px #CCCCCC;
+    border-radius: 3px;
+    background-color: #EAF1F2;
+}
+
+h5{
+    color:#F0813D;
+    display: inline;
+    font-size: 15px;
+}
+
+p{
+    color: #595959;
+}
+
+#Button-download{
+    width: 7.5vw;
+    color: white;
+    font-size: 0.9em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Button-star{
+    color: white;
+}
+
+
+#people-icon{
+    gap: 12px;
+}
+
+#corp-people{
+    gap: 2px;
+}
+
+.request{
+    padding: 1em;
+}
+
+.response1{
+    border-bottom: #cfcfcf solid 1px;
+    background-color: #F8F8F8;
+}
+
+#responses{
+    /* border:solid; */
+    display: grid;
+    grid-template-columns: 2fr 0.2fr 0.2fr;
+    align-items: center;
+
+}
+
+.response2{
+    border-bottom: #cfcfcf solid 1px;
+}
