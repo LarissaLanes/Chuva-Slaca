@@ -1,16 +1,17 @@
 import styled from "styled-components"
 
-export const DivBar = styled.div`
-    border:solid 1px orange;
+export const DivBar = styled.div `
+    /* border:solid 1px orange; */
     display: grid;
     grid-template-rows: 0.5fr 2fr 3fr;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     position: fixed;
-    height: 99vh;
+    height: 99.6vh;
+    width: 19.2vw;
 
     div{
-        border: solid yellow 1px;
-
+        /* border: solid yellow 1px; */
+     
         img{
             height: 38vh;
         }
@@ -19,13 +20,14 @@ export const DivBar = styled.div`
             list-style:none;
           
             li{
-                border-bottom:solid 2px;
+                border-bottom:solid 1.5px;
                 line-height: 3em;
                 color:#E7E7E7;
 
                 a{
                     color:#725C5C;
                     font-size: 1.3em;
+                  
                 }
 
             }
@@ -33,18 +35,20 @@ export const DivBar = styled.div`
             li:hover{
                 cursor:pointer;
                 background-color: #FDF1EB;
-                
+                list-style-type: square;
+                color: red;
+                border-bottom: none;
             }
         }
 
-        ul:hover{
-            
-        }
+        
+
+       
     }
 
     
 `
-export const SlacaHeader = styled.div`
+export const SlacaHeader = styled.div `
     background: linear-gradient(180deg, #FFB354 30%, #EE7A3A 100%);
     display: flex;
     justify-content:center;
@@ -52,7 +56,7 @@ export const SlacaHeader = styled.div`
     h1{
         display: flex;
         color: white;
-        font-size: 35px;
+        font-size: 37px;
     }
 
     

@@ -2,7 +2,7 @@
 import styled from "styled-components"
 
 export const DivHeader = styled.div`
-    border: solid red 1px;
+    /* border: solid red 1px; */
     height: 10vh;
     background-color: #FDF1EB;
     display: grid;

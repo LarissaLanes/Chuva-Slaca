@@ -1,14 +1,14 @@
 import slacalogo from "../assets/orange-slaca.png"
-import { DivBar, SlacaHeader} from "../styled/NavBar-styled";
+import { DivBar, SlacaHeader } from "../styled/NavBar-styled";
 
 const NavBar = () => {
-    return(
+    return (
         <DivBar>
             <SlacaHeader>
-                <h1>SLACA 2019</h1>                
+                <h1>SLACA 2019</h1>
             </SlacaHeader>
             <div>
-                <img src={slacalogo}/>
+                <img src={slacalogo} />
             </div>
             <div>
                 <ul>
