@@ -1,5 +1,6 @@
 import { DivNewTopic } from "../../styled/styledComponentsTopic/NewTopic-styled";
 import DoneOutlineRoundedIcon from '@mui/icons-material/DoneOutlineRounded';
+import check from "../../assets/check.png"
 
 const NewTopic = () => {
     return(
@@ -10,7 +11,8 @@ const NewTopic = () => {
             <button>criar novo tópico</button>
             <aside>
             <div>
-                <DoneOutlineRoundedIcon color="action"/>
+                {/* <DoneOutlineRoundedIcon color="action"/> */}
+                <img src={check}/>
                 <h3>Aguardando feedback dos autores</h3>
                 <p>Editar tópico</p>
             </div>

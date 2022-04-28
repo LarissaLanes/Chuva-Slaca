@@ -6,6 +6,7 @@ import DownloadRoundedIcon from '@mui/icons-material/DownloadRounded';
 import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
 import doi from "../assets/doi.png"
+import dowload from "../assets/download.png"
 
 const VideoPage = () => {
     return(
@@ -19,11 +20,12 @@ const VideoPage = () => {
                         <li>
                             <button id="Button-download">
                                 <DownloadRoundedIcon/>
+                                {/* <img src={dowload}/> */}
                                 Download
                             </button>
                         </li>
                         <li>
-                            <button id="Button-start"><StarRoundedIcon/></button>
+                            <button id="Button-star"><StarRoundedIcon/></button>
                         </li>
                         <li>
                             <button><img src={doi}/></button>

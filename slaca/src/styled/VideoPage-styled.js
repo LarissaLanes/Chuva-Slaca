@@ -56,7 +56,8 @@ export const Section1 = styled.div`
                     border-radius: 4px;
 
                     img{
-                        height: 1.6em;
+                        height: 1.4em;
+                        
                     }
                     
                 }
