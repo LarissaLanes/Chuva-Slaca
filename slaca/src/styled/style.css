@@ -65,3 +65,24 @@ p{
 #corp-people{
     gap: 2px;
 }
+
+.request{
+    padding: 1em;
+}
+
+.response1{
+    border-bottom: #cfcfcf solid 1px;
+    background-color: #F8F8F8;
+}
+
+#responses{
+    /* border:solid; */
+    display: grid;
+    grid-template-columns: 2fr 0.2fr 0.2fr;
+    align-items: center;
+
+}
+
+.response2{
+    border-bottom: #cfcfcf solid 1px;
+}

@@ -13,11 +13,12 @@ const CreateTopic = () => {
                     <h2>Discussões</h2>
                 </section>
                 <>
-                    {/* <Created/> */}
+                    <Created/>
                     {/* <PostQuestion/> */}
-                    <NewTopic/>
+                    {/* <NewTopic/> */}
                 </>
                 <>
+                    <Questions/>
                     <Questions/>
                 </>
             </div>

@@ -26,6 +26,7 @@ export const DivCreated = styled.div`
             
             div{
                 display: flex;
+                width: 2vw;
             }
          }
      }
