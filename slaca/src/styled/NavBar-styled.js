@@ -8,6 +8,8 @@ export const DivBar = styled.div `
     position: fixed;
     height: 99.6vh;
     width: 19.2vw;
+   
+
 
     @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
               /* border: solid red; */
@@ -22,12 +24,14 @@ export const DivBar = styled.div `
             
                
                 }
-
+        
     div{
         /* border: solid yellow 1px; */
         
         img{
             height: 38vh;
+            /* border: solid; */
+            /* margin-top: 6em; */
 
             
                 @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
@@ -40,6 +44,8 @@ export const DivBar = styled.div `
             list-style:none;
             /* position: absolute; */
             /* width: 17.3vw; */
+            /* border: solid; */
+
           
             li{
                 border-bottom:solid 1.5px;
@@ -83,12 +89,17 @@ export const DivBar = styled.div `
                 border-bottom: none;
             }
         }    
+
 `
 
 export const SlacaHeader = styled.div `
     background: linear-gradient(180deg, #FFB354 30%, #EE7A3A 100%);
     display: flex;
     justify-content:center;
+    /* position:relative; */
+    width: 39vh;
+    /* border:solid red; */
+    z-index: 0;
 
     @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
                  height:7vh ;
@@ -107,4 +118,8 @@ export const SlacaHeader = styled.div `
     }
 
     
+
+  
+
+
 `

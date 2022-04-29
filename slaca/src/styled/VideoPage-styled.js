@@ -11,6 +11,17 @@ export const DivVideo = styled.div`
     /* margin-bottom: 3em; */
     margin-bottom:3em;
     gap: 3em;
+
+
+    @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+           //tablet
+           margin-left: 25vw;
+           /* border: solid; */
+           flex-direction: column;
+           align-items: center;
+         
+
+    }
 `
 
 export const Section1 = styled.div`
@@ -19,6 +30,13 @@ export const Section1 = styled.div`
     /* border: solid green; */
     width: 47.5vw;
     /* height: 67vh; */
+ @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+           //tablet
+           /* border: solid red; */
+           width: 68vh;
+           align-items:center;  
+    }
+
     div{
         /* border: solid orange 1px; */
         /* margin-left: 9.5em; */
@@ -30,6 +48,13 @@ export const Section1 = styled.div`
         }
     }
     section{
+        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+           //tablet
+                max-width: 70vw;
+                max-height: 48vh;
+                width: auto;
+                height: auto;
+             }
         /* border: solid pink 1px; */
         /* width: 14.5vw;
         display: flex; */
@@ -49,6 +74,15 @@ export const Section1 = styled.div`
             /* display: flex;
             flex-direction: column; */
             /* display: inline; */
+
+            @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+           //tablet
+                /* border: solid pink; */
+                width: 66vw;
+                height: 44vh;
+                /* width: 50vh; */
+             }
+            
             h1{
                 color: white;
                 /* display: inline; */
@@ -91,6 +125,12 @@ export const Section2 = styled.div`
     grid-template-columns: 5fr 2fr; */
     /* border: solid red; */
     width: 17vw;
+    @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+           //tablet
+           /* border: solid red; */
+          width: 68vw;
+    }
+
 
     div{
         /* border: solid red 1px; */

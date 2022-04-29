@@ -5,7 +5,10 @@
     transition: all 0.8s;
     cursor: pointer;
     height: 54.5vh;
+
+    /* border: solid green; */
 }
+
 
 .fundo-png{
     background-image: url("../assets/Vector\ 22fundo.png");
@@ -91,6 +94,30 @@ p{
     border-radius: 0px 0px 0px 0px;
 }
 
+input[type="checkbox"]{
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ .nav
+{
+    transform: translateX(19.3vw);
+}
+
+label{
+    color: rgb(255, 101, 11);
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.nav{
+    left: -19.3vw;
+    transition: all 0.5s;
+  
+    
+}
+
 @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
     /* tablets */
     
@@ -98,6 +125,20 @@ p{
         /* border:solid red; */
         grid-template-columns: 1.5fr 0.2fr 0.2fr;
     }
+
+    .background-image:hover{
+        -webkit-transform: none;
+        transform: none;
+    } 
+
+    .background-image{
+        margin-left: 1em;
+    }
+
+    #Button-download{
+        width: 15vw;
+    }
+  
 
 
 
