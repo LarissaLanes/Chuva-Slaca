@@ -4,6 +4,7 @@
     border-radius: 3px;
     transition: all 0.8s;
     cursor: pointer;
+    height: 54.5vh;
 }
 
 .fundo-png{
@@ -80,7 +81,6 @@ p{
     display: grid;
     grid-template-columns: 2fr 0.2fr 0.2fr;
     align-items: center;
-
 }
 
 .response2{
@@ -90,3 +90,16 @@ p{
 #iconButton-back{
     border-radius: 0px 0px 0px 0px;
 }
+
+@media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+    /* tablets */
+    
+    #responses{
+        /* border:solid red; */
+        grid-template-columns: 1.5fr 0.2fr 0.2fr;
+    }
+
+
+
+}
+

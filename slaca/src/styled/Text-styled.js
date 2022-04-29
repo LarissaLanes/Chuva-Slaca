@@ -9,9 +9,16 @@ export const DivText = styled.div`
     flex-direction: column;
     align-items:center;
 
+
+    @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+        /* tablets */
+        margin-left: 20vw;
+
+    }
+
     div{
         /* border: solid 1px purple; */
-        width: 64vw;
+        width: 67vw;
        
 
         section{
@@ -23,10 +30,28 @@ export const DivText = styled.div`
             h2{
                 color: #4E4E4E;
                 margin-left: 1em;
+
+                @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+                    font-size: 19px;
+                    /* tablets */
+                }
             }
         }
         
         article{
+            
+            p{
+
+                @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+        /* tablets */
+        font-size: 15px;
+
+    }
+
+            }
+
+
+
 
         }
     }

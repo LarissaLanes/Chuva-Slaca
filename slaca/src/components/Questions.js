@@ -74,8 +74,7 @@ const Questions = () => {
 
 
           <AccordionDetails  className="response1">
-             <Typography sx={{width: "95%", flexShrink: 0}} >
-.                   
+             <Typography sx={{width: "95%", flexShrink: 0}} >         
                 <div id="responses">
                 <h5>Carmila Ferreira Andrade</h5>
                 <>

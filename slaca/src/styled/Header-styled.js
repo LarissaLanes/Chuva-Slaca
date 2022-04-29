@@ -3,16 +3,30 @@ import styled from "styled-components"
 
 export const DivHeader = styled.div`
     /* border: solid red 1px; */
-    height: 10vh;
+    height: 11vh;
     background-color: #FDF1EB;
     display: grid;
     grid-template-columns: 4fr 0.5fr 2fr;
 
+    @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+        height: 9vh;
+        border: solid 1px red;
+
+        /* tablets */
+    }
+
     main{
-        /* border:solid; */
+        /* border:solid green; */
         height: 10vh;
-        margin-left: 9.5em;
+        margin-left: 7em;
         line-height: 0.5em;
+
+        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+        margin-left: 8em;
+        height: 2em;
+
+        /* tablets */
+        }
 
         p{
             font-size: 15px;
