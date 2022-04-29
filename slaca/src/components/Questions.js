@@ -28,7 +28,7 @@ const Questions = () => {
 
             <article>
 
-            <Accordion  variant="contained">
+            <Accordion  variant="contained" id="accordion">
           <AccordionSummary>
               <Typography sx={{width: "95%", flexShrink: 0}}  className="request">
               <h4>Assunto da pergunta aparece aqui</h4>

@@ -8,11 +8,12 @@ export default function ComboBox() {
   return (
     <Autocomplete
       disablePortal
-      id="lunguage"
+      id="language"
       options={languagens}
       sx={{ width: 140}}
+      fullWidth
       size= "small"
-      renderInput={(params) => <TextField {...params} label="PT, BR"/>}
+      renderInput={(params) => <TextField {...params} label={<LanguageRoundedIcon/>}/>}
     />
   );
 }

@@ -17,7 +17,7 @@ export const DivQuestions = styled.div`
     }
 
     article{
-        /* border:solid red; */
+        /* border:solid pink; */
         border:  1px solid #E7E7E7;
         width: 60vw;
         /* padding: 1em; */
@@ -27,8 +27,13 @@ export const DivQuestions = styled.div`
         /* display: block; */
         /* box-sizing: border-box; */
         
-        
+        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+           //tablet
+           width: 83vw;
 
+         
+
+    }
         div{
             width: 60vw;
             color: #757575;
@@ -37,7 +42,15 @@ export const DivQuestions = styled.div`
             /* border:solid red; */
             flex-direction:column;
             box-sizing: border-box; 
-            
+            /* position: absolute; */
+
+                    @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+           //tablet
+           width: 83vw;
+
+         
+
+    }
 
         }
 

@@ -12,17 +12,12 @@ const NavBar = () => {
             </label>
             <DivBar className="nav">
                 <SlacaHeader>
-                
                     <h1>SLACA 2019</h1>
-
                 </SlacaHeader>
                 <div>
                     <img src={slacalogo} />
                 </div>
-        
                 <div>
-            
-            
                     <ul>
                         <li>
                             <a href="#presentation">Apresentação</a>

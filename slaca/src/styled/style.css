@@ -4,7 +4,14 @@
     border-radius: 3px;
     transition: all 0.8s;
     cursor: pointer;
-    height: 54.5vh;
+    /* height: 100%; */
+    width: 44vw;
+    height: 55vh;
+    max-width: 46vw;
+    max-height: 55vh;
+    
+    object-fit: cover;
+    object-position: center;
 
     /* border: solid green; */
 }
@@ -22,7 +29,7 @@
 }
 
 #Input{
-    border:none;
+    /* border:solid; */
     /* background-color: white; */
 }
 
@@ -114,8 +121,14 @@ label{
 .nav{
     left: -19.3vw;
     transition: all 0.5s;
-  
-    
+}
+
+
+
+#avatar-header{
+    /* border: #595959 solid; */
+    height: 50px;
+    width: 50px;
 }
 
 @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
@@ -132,12 +145,32 @@ label{
     } 
 
     .background-image{
-        margin-left: 1em;
+        /* margin-left: 1em; */
+        min-width: 96vw;
+        min-height: 20vh;
     }
 
     #Button-download{
         width: 15vw;
     }
+
+    .nav{
+        left: -30vw;
+    }
+
+    input[type="checkbox"]:checked ~ .nav
+{
+    transform: translateX(30vw);
+}
+    /* #language{
+        width: auto;
+    } */
+
+    #avatar-header{
+        height: 30px;
+        width: 30px;
+    }
+
   
 
 

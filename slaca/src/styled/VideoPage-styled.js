@@ -10,12 +10,12 @@ export const DivVideo = styled.div`
     justify-content: center;
     /* margin-bottom: 3em; */
     margin-bottom:3em;
-    gap: 3em;
+    gap: 1em;
 
 
     @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
            //tablet
-           margin-left: 25vw;
+           /* margin-left: 25vw; */
            /* border: solid; */
            flex-direction: column;
            align-items: center;
@@ -33,8 +33,11 @@ export const Section1 = styled.div`
  @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
            //tablet
            /* border: solid red; */
-           width: 68vh;
-           align-items:center;  
+           width: 89vw;
+           
+           /* max-width: auto; */
+           /* align-items:center; */
+           /* display:none ; */
     }
 
     div{
@@ -50,10 +53,10 @@ export const Section1 = styled.div`
     section{
         @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
            //tablet
-                max-width: 70vw;
-                max-height: 48vh;
-                width: auto;
-                height: auto;
+                /* width: 90vw;
+                height: 46vh; */
+                /* width: auto;
+                height: auto; */
              }
         /* border: solid pink 1px; */
         /* width: 14.5vw;
@@ -64,8 +67,11 @@ export const Section1 = styled.div`
         article{
             z-index: 0;
             background: rgba(141, 53, 6, 0.521); 
-            width: 45.5vw;
-            height: 51vh;
+            width: 45.2vw;
+            height: 50vh;
+            max-width: 42vw;
+            max-height: 60vh;
+          
             /* position:absolute; */
             /* justify-content: center; */
             border-radius: 3px;      
@@ -78,8 +84,10 @@ export const Section1 = styled.div`
             @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
            //tablet
                 /* border: solid pink; */
-                width: 66vw;
-                height: 44vh;
+                width: 86vw;
+                height: 43vh;
+                  min-width: 92vw;
+            min-height: 56vw;
                 /* width: 50vh; */
              }
             
@@ -111,8 +119,17 @@ export const Section1 = styled.div`
                 padding: 5px;
                 margin-top: 11em;
                 display: inline;
+                object-fit:cover;
+                object-position: center;
                 /* margin-top: 20vh ; */
                 /* display: inline; */
+                
+                @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+           //tablet
+                width: 11vw;
+                height: 10vh;
+             
+             }
             }
         }
 
@@ -128,7 +145,8 @@ export const Section2 = styled.div`
     @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
            //tablet
            /* border: solid red; */
-          width: 68vw;
+          width: 90vw;
+          /* height: 30vh; */
     }
 
 
@@ -181,6 +199,13 @@ export const Section2 = styled.div`
         /* height: 13vh; */
         /* display: grid;
         grid-template-rows: 0.5fr 4fr; */
+        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+           //tablet
+        /* width: 90vw; */
+         
+
+    }
+        
         
         article{
             border-radius: 4px 4px 0px 0px;
@@ -191,6 +216,13 @@ export const Section2 = styled.div`
             h2{
                 color:#4E4E4E;
                 margin-left: 1em;
+
+                @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+           //tablet
+                        font-size: 19px;
+         
+
+    }
             }
         }
     }

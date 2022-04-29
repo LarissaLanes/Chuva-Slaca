@@ -17,8 +17,9 @@ const HomePage = () => {
     return(
         <DivHome>
             <div>
-                <NavBar/>
+            <NavBar/>
             </div>
+
             <div>
                 <Header/>
                 <VideoPage/>

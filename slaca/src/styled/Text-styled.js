@@ -12,13 +12,24 @@ export const DivText = styled.div`
 
     @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
         /* tablets */
-        margin-left: 20vw;
+        /* margin-left: 10vw; */
 
     }
 
     div{
         /* border: solid 1px purple; */
         width: 67vw;
+
+        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+                width: 90vw;
+               
+
+           //tablet
+
+      
+         
+
+    }
        
 
         section{

@@ -20,7 +20,7 @@ const Header = () => {
                 <p>alguem12@galoascience.com</p>
                 </div>
                <div> 
-                <Avatar alt="Pessoa" src={avatar}/> 
+                <Avatar alt="Pessoa" id="avatar-header"fullWidth  src={avatar}/> 
                 </div>
 
             </section>

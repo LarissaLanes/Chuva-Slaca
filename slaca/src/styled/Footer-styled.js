@@ -12,8 +12,9 @@ export const DivFooter = styled.div`
 
 
     @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-        margin-left: 8em;
-        height: 15vh;
+        /* margin-left: 8em; */
+        width: 94vw;
+        /* height: vh; */
 
                   /* tablets */
                 }
@@ -24,7 +25,7 @@ export const DivFooter = styled.div`
         margin-top: 1em;
 
         @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-              margin-left: 2em;
+              /* margin-left: 2em; */
               margin-top: 2em;
 
                   /* tablets */

@@ -15,6 +15,18 @@ export const DivCreateTopic = styled.div`
         display: grid;
         /* grid-template-rows: 1fr 1fr; */
 
+
+        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+        width: 90vw;
+        max-width: 90vw;
+
+//tablet
+
+
+
+
+}
+
         section{
             background-color:#FDF1EB ;
             border-bottom: solid 1px #ECECEC;
@@ -22,9 +34,28 @@ export const DivCreateTopic = styled.div`
             width: 67vw;
             max-width: 67vw;
 
+            @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+                width: 90vw;
+                max-width: 90vw;
+
+           //tablet
+
+      
+         
+
+    }
+
             h2{
                 color: #4E4E4E;
                 margin-left: 1em;
+
+                @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+           //tablet
+           /* margin-left: 25vw; */
+           font-size: 19px;
+         
+
+    }
                 
             }
 

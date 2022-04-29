@@ -4,7 +4,7 @@ import styled from "styled-components"
 export const DivPostQuestion = styled.div`
     margin-bottom: 3em;
     display: flex;
-    margin-left: 2.5em;
+    margin-left: 3.5em;
 
     h3{
         color: #ED7839;
@@ -20,7 +20,7 @@ export const DivPostQuestion = styled.div`
     div{
         display: grid;
         grid-template-columns: 4fr 0.1fr 1.5fr ;
-        /* border: solid; */
+        border-top: solid 0.5px white;
         width: 60vw;
         max-width: 60vw;
 

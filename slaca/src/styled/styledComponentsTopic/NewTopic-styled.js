@@ -30,6 +30,13 @@ export const DivNewTopic = styled.div`
     p{
         color:#595959;
         font-size: 14px;
+
+
+        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+           //tablet
+            margin-left: 2em;
+
+    }
         
     }
 
@@ -46,6 +53,14 @@ export const DivNewTopic = styled.div`
         -webkit-filter: transition(1px);
         background: linear-gradient(180deg,#FEB254 0%, #F0813D 100% );
         box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.12);
+
+
+        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+           //tablet
+           width: 20vw;
+         
+
+    }
     }
 
     button:hover{
@@ -70,7 +85,8 @@ export const DivNewTopic = styled.div`
     div{
         /* border:solid red; */
         position: absolute;
-        width: 15vw;
+        width: 20vw;
+        /* min-width: 20vw; */
         /* height: 12vh; */
         /* margin: 1em; */
         display: flex;
@@ -82,10 +98,28 @@ export const DivNewTopic = styled.div`
         transition: all 0.9s;
         -webkit-filter: transition(1px);
 
+        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+           //tablet
+           width: 60vw ;
+            /* width: 25vw; */
+         
+
+    }
+
         h3{
             font-size: 16px;
             color: #707070;
             line-height: 0.5em;
+            /* border:solid; */
+            @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+           //tablet
+            font-size: 13px;
+         
+
+    }
+
+
+  
         }
 
         p{
@@ -119,6 +153,15 @@ export const DivNewTopic = styled.div`
         box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
         position: absolute;
         z-index: 0;
+        /* border: solid; */
+
+        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+           //tablet
+           width: 78vw;
+
+         
+
+    }
 
         h5{
             color: #5C5C5C;

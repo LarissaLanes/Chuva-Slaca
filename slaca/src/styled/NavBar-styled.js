@@ -2,24 +2,28 @@ import styled from "styled-components"
 
 export const DivBar = styled.div `
     /* border:solid 1px orange; */
-    display: grid;
-    grid-template-rows: 0.5fr 2fr 3fr;
+    display: flex;
+    flex-direction:column;
+    /* grid-template-rows: 0.5fr 2fr 3fr; */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     position: fixed;
-    height: 99.6vh;
-    width: 19.2vw;
+    height: 100%;
+    background-color: white ;
+    /* width: 19.2vw; */
    
 
 
     @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
               /* border: solid red; */
-              width: 24vw;
+              /* width: 24vw; */
               grid-template-rows: 0.1fr 0.5fr 3fr;
+              /* display: block; */
+              /* position: absolute; */
               /* height: 40vh; */
                /* tablets */
 
                 div{
-                    width: 24vw;                  
+                    /* width: 24.3vw;                   */
                 }
             
                
@@ -27,6 +31,17 @@ export const DivBar = styled.div `
         
     div{
         /* border: solid yellow 1px; */
+        /* background-color: white ; */
+        /* height: 100%; */
+        /* z-index:0; */
+        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+           //tablet
+            max-width: 26vw;
+            width: 26vw;
+            /* height: 100%; */
+         
+
+    }
         
         img{
             height: 38vh;
@@ -35,7 +50,10 @@ export const DivBar = styled.div `
 
             
                 @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-                 height:22vh ;
+                 height:23vh ;
+                 max-height: 23vh;
+                 object-fit: cover;
+                 object-position: center;
                   /* tablets */
                 }
         }
@@ -95,6 +113,7 @@ export const DivBar = styled.div `
 export const SlacaHeader = styled.div `
     background: linear-gradient(180deg, #FFB354 30%, #EE7A3A 100%);
     display: flex;
+    /* height: 10.5vh; */
     justify-content:center;
     /* position:relative; */
     width: 39vh;
@@ -102,17 +121,17 @@ export const SlacaHeader = styled.div `
     z-index: 0;
 
     @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-                 height:7vh ;
+                 /* height:9vh ; */
                   /* tablets */
     }
 
     h1{
         display: flex;
         color: white;
-        font-size: 37px;
+        font-size: 38.5px;
 
         @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-                 font-size: 23px
+                 font-size: 35px
                   /* tablets */
             }
     }
