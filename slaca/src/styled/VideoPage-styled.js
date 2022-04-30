@@ -1,139 +1,99 @@
 import styled from "styled-components"
 
 export const DivVideo = styled.div`
-    display: grid;
-    grid-template-rows: 0.5fr 5fr;
-    height: 68vh; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom:3em;
+    gap: 1em;
 
-    div{
-        /* border: solid grey 1px; */
+    @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+           flex-direction: column;
+           align-items: center;
+    }
+
+    @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
     }
 `
 
 export const Section1 = styled.div`
-    display: grid;
-    grid-template-columns: 5fr 2fr;
+    width: 47.5vw;
+    
+    @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+           width: 89vw;
+    }
+
+    @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            min-width: 96vw;
+     }
 
     div{
-        /* border: solid orange 1px; */
-        margin-left: 9.5em;
-        width: 43vw;
-        height: 13vh;
-
         h2{
             color:#ED7839;
-        }
-    }
+            margin-top: 1em;
 
-    section{
-        /* border: solid orange 1px; */
-        width: 14.5vw;
-        height: 13vh;
-        display: flex;
-        flex-direction:column;
-        align-items: flex-end;
-            
-        
-        h4{
-            /* border: solid orange 1px; */
-            color:#ED7839;
-        }
-
-        ul{
-            /* border: solid blue 1px; */
-            gap:1em;
-            list-style:none;
-            display: flex;
-            flex-direction:row;
-
-            li{
-                
-                button{
-                    border:none;
-                    height:3em;
-                    width: 4em;
-                    background: #ED7839;
-                    border-radius: 4px;
-
-                    img{
-                        height: 1.4em;
-                        
-                    }
-                    
-                }
-
-                button:hover{
-                    background: #FFB354;
-                    cursor: pointer;
-                }
+            @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                    font-size: 16px;
             }
-
         }
-
     }
-  
     
-`
-
-export const Section2 = styled.div`
-    display: grid;
-    grid-template-columns: 5fr 2fr;
- 
-
-    div{
-        /* border: solid red 1px; */
-        width: 43vw;
-        height: 49vh;
-        margin-left: 9.5em;
-
-        h1{
-            color: white;
-            
-        }
-
+    section{
         article{
             z-index: 0;
             background: rgba(141, 53, 6, 0.521); 
-            width: 41vw;
-            height: 46vh;
-            position:absolute;
-            /* justify-content: center; */
+            width: 45.2vw;
+            height: 50vh;
+            max-width: 42vw;
+            max-height: 60vh;
             border-radius: 3px;      
-            /* border: solid;      */
             padding :1em ;
-            /* display: flex;
-            flex-direction: column; */
-            /* display: inline; */
+
+            @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+                     width: 86vw;
+                height: 43vh;
+                min-width: 85vw;
+                min-height: 56vw;
+             }
             
+             @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                width: 100%;
+                height: 51vh;
+                min-width: 90vw;
+                min-height: 90vw;
+            }
 
             h1{
                 color: white;
-                /* display: inline; */
-                /* margin-bottom: 70vh; */
                 font-size:34px; 
-               
+
+                @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                            font-size:20px; 
+                }
             }
 
             div{
-                height: 17vh;
-                width: 22vw;
-                /* border: solid; */
                 margin-left: 2em;
                 display: inline-block;
                 line-height: 0.5em;
-               
+
+                @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                            margin-left: 8em ;
+                }
             }
 
-            h3{
+            h3, h2{
                 color: white;
-                /* display: inline; */
-                /* margin-bottom: 70vh; */
                 font-size:22px; 
-                
-            }
 
-            h2{
-                color: white;
+                @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                            font-size: 16px;
+                    flex-wrap: wrap;
+                    line-height: 1em;
+                 }
             }
 
             img{  
@@ -144,40 +104,91 @@ export const Section2 = styled.div`
                 padding: 5px;
                 margin-top: 11em;
                 display: inline;
-                /* margin-top: 20vh ; */
-                /* display: inline; */
+                object-fit:cover;
+                object-position: center;
                 
-               
+                @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+                             width: 11vw;
+                    height: 10vh;
+                }
+
+                @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                            width: 12vw;
+                    height: 6vh;
+                }
+            }
+        }        
+    }
+`
+
+export const Section2 = styled.div`
+    width: 17vw;
+
+    @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+        width: 90vw;
+    }
+
+    @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            width: 90vw;
+    }
+
+    div{
+        display: flex; 
+        flex-direction:column;
+        align-items: flex-end;
+        line-height: 1px;
+    
+        h4{
+            color:#ED7839;
+        }
+
+        ul{
+            gap:0.5em;
+            list-style:none;
+            display: flex;
+
+            li{
+
+                button{
+                    border:none;
+                    height:2.2em;
+                    width: 4em;
+                    background: #ED7839;
+                    border-radius: 4px;
+
+            img{
+                height: 1.4em;
             }
         }
 
+        button:hover{
+            background: #FFB354;
+            cursor: pointer;
+        }
     }
+}
+}
 
     section{
-        /* border: solid red 1px; */
-        width: 14.5vw;
-        height: 49vh;
-        display: grid;
-        grid-template-rows: 0.5fr 4fr;
-        
-
         article{
-            /* border:solid 1px purple; */
+            border-radius: 4px 4px 0px 0px;
             background-color:#FDF1EB;
             border-bottom: solid 1px #ECECEC;
-            
+
             h2{
                 color:#4E4E4E;
                 margin-left: 1em;
+
+                @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+                             font-size: 19px;
+                }
             }
         }
     }
 
     aside{
-        /* border:solid 1px; */
         padding:1em;
         position: static;
-        /* line-height: 1.5em; */
 
         h5{
             color: #4E4E4E;
@@ -194,3 +205,4 @@ export const Section2 = styled.div`
         }
     }
 `
+

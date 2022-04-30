@@ -1,10 +1,14 @@
 import { DivCreateTopic } from "../styled/CreateTopic-styled";
-import Created from "./componentsOfCreateATopic/Created";
+import NewTopic from "./componentsOfCreateATopic/NewTopic";
+import PostQuestion from "./componentsOfCreateATopic/PostQuestion";
 import Questions from "./Questions";
 import "../styled/style.css"
+import { useContext } from "react";
+import GlobalStateContext from "../global/GlobalStateContext";
 
 
-const CreateTopic = () => {
+const ChangeState = () => {
+    const { secondaryState } = useContext(GlobalStateContext)
 
     return (
         <DivCreateTopic id="works">
@@ -12,7 +16,7 @@ const CreateTopic = () => {
                 <section>
                     <h2>Discussões</h2>
                 </section>
-                <Created />
+                {secondaryState ? (<PostQuestion />) : (<NewTopic />)}
                 <>
                     <Questions />
                     <Questions />
@@ -22,4 +26,4 @@ const CreateTopic = () => {
     )
 }
 
-export default CreateTopic;
+export default ChangeState;

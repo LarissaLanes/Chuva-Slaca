@@ -1,10 +1,13 @@
-import Router from "./router/Router"
+import GlobalStateProvider from "./global/GlobalStateProvider";
+import HomePage from "./pages/HomePage";
 
 function App() {
 
   return (
     <div>
-      <Router/>      
+      <GlobalStateProvider>
+        <HomePage/>
+      </GlobalStateProvider>
     </div>
   );
 }

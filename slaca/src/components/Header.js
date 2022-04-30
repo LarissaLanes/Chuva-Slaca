@@ -4,7 +4,7 @@ import ComboBox from "./bootstratp/Autocomplete";
 import avatar from "../assets/avatar.jpeg"
 
 const Header = () => {
-    return(
+    return (
         <DivHeader>
             <main>
                 <p>Anais do Simpósio Latino Americano de Ciências de Alimentos </p>
@@ -12,19 +12,18 @@ const Header = () => {
                 <p>ISSN: 1234-5678</p>
             </main>
             <div>
-                <ComboBox/>
+                <ComboBox />
             </div>
             <section>
                 <div>
-                <h4>Bem vindo!</h4>
-                <p>alguem12@galoascience.com</p>
+                    <h4>Bem vindo!</h4>
+                    <p>alguem12@galoascience.com</p>
                 </div>
-               <div> 
-                <Avatar alt="Pessoa" src={avatar}/> 
+                <div>
+                    <Avatar alt="Pessoa" id="avatar-header" fullWidth src={avatar} />
                 </div>
 
             </section>
-            
         </DivHeader>
     )
 }

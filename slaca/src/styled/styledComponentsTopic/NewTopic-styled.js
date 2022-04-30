@@ -2,12 +2,10 @@ import styled from "styled-components"
 
 export const DivNewTopic = styled.div`
     display: flex;
-    /* text-align: center; */
-    /* justify-content:center; */
+    justify-content:center;
     gap: 1em;
     justify-items:center;
     margin-bottom: 6vh;
-
 
     h3{
         color: #ED7839;
@@ -18,7 +16,6 @@ export const DivNewTopic = styled.div`
 
     h4{
         color: #F48F44;
-        
     }
 
     h5{
@@ -30,12 +27,19 @@ export const DivNewTopic = styled.div`
     p{
         color:#595959;
         font-size: 14px;
-        
+
+
+        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+            margin-left: 2em;
+        }
+
+        @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            font-size: 12px;
+            margin-left: 2em;
+        }
     }
 
-
     button{
-        /* margin-bottom: 3em; */
         width: 14vw;
         height: 4vh;
         border:none;
@@ -46,6 +50,14 @@ export const DivNewTopic = styled.div`
         -webkit-filter: transition(1px);
         background: linear-gradient(180deg,#FEB254 0%, #F0813D 100% );
         box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.12);
+
+        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+           width: 20vw;
+         }
+
+        @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            width: 40vw;
+        }
     }
 
     button:hover{
@@ -57,35 +69,45 @@ export const DivNewTopic = styled.div`
     }
 
     aside{
-        /* display: grid; */
-    /* grid-template-rows: 1fr 1fr; */
-    gap: 1px;
-    display: flex;
-    justify-content:center;
-    /* margin-right: 69vw; */
-    margin-bottom: 10em;
-    transition: all 0.9s;
-    -webkit-filter: transition(1px);
+        gap: 1px;
+        display: flex;
+        justify-content:center;
+        margin-bottom: 10em;
+        transition: all 0.9s;
+        -webkit-filter: transition(1px);
+        width: 80vw;
 
     div{
-        /* border:solid red; */
         position: absolute;
-        width: 15vw;
-        /* height: 12vh; */
-        /* margin: 1em; */
+        width: 20vw;
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top:3em;
-        /* padding: 1em; */
         z-index: 1;
         transition: all 0.9s;
         -webkit-filter: transition(1px);
+
+        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+           width: 60vw ;
+        }
+
+        @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            width: 40vw;
+        }
 
         h3{
             font-size: 16px;
             color: #707070;
             line-height: 0.5em;
+
+            @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+            font-size: 13px;
+            }
+
+            @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            font-size: 10px;
+            }
         }
 
         p{
@@ -93,7 +115,11 @@ export const DivNewTopic = styled.div`
             font-size: 14px;
             text-decoration-line: underline;
             cursor: pointer;
-        }
+
+            @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            font-size: 10px;
+            }
+        } 
     }
     
     article:hover{
@@ -112,13 +138,22 @@ export const DivNewTopic = styled.div`
         -webkit-filter: blur(3px);
         filter:blur(2px);
         transition: all 0.7s;
-        width: 60vw;
+        width: 58vw;
         padding: 1em;
         border-radius: 4px;
         margin: 1em;
         box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
         position: absolute;
         z-index: 0;
+
+        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+           width: 78vw;
+        }
+
+        @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            width: 75vw;
+            margin: 1px;
+        }
 
         h5{
             color: #5C5C5C;
@@ -128,16 +163,6 @@ export const DivNewTopic = styled.div`
 
         p{
             color: #4D4D4D;
-            
         }
-
-    
     }
-
-
-
-   
-
-  
-
 `

@@ -1,12 +1,14 @@
 import styled from "styled-components"
 
-
 export const DivPostQuestion = styled.div`
     margin-bottom: 3em;
     display: flex;
-    margin-left: 1.5em;
+    margin-left: 3.5em;
 
-   
+    @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            margin-left:0 ;
+        }
 
     h3{
         color: #ED7839;
@@ -16,18 +18,27 @@ export const DivPostQuestion = styled.div`
     p{
         text-align: center;
         color: #5C5C5C;
-        
+
+        @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            font-size: 14px;
+        }
     }
     
     div{
         display: grid;
-        grid-template-columns: 4fr 1fr ;
-        width: 61.4vw;
-        /* border: solid; */
-       
-        article{
-            /* border: solid red; */
+        grid-template-columns: 4fr 0.1fr 1.5fr ;
+        border-top: solid 0.5px white;
+        width: 60vw;
+        max-width: 60vw;
 
+        @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            width: 90vw;
+            max-width: 90vw;
+        }
+
+        article{
             button{
                 background: none;
                 color:#474747;
