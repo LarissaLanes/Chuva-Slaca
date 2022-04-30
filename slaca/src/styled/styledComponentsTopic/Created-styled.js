@@ -17,6 +17,11 @@ export const DivCreated = styled.div`
         font-size: 16px;
         /* tablets */
     }
+    @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            font-size: 13px;
+            
+        }
     }
 
     p{
@@ -30,6 +35,13 @@ export const DivCreated = styled.div`
         
         /* tablets */
     }
+
+    @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            font-size: 12px;
+            margin-left: 2em;
+            
+        }
     }
 
      ul{
@@ -75,6 +87,12 @@ export const DivCreated = styled.div`
 
         /* tablets */
     }
+    @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            width: 38vw;
+
+            
+        }
 
     }
 

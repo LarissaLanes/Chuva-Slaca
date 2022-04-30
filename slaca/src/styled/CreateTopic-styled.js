@@ -27,6 +27,12 @@ export const DivCreateTopic = styled.div`
 
 }
 
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            width: 90vw;
+            max-width: 90vw;
+        }
+
         section{
             background-color:#FDF1EB ;
             border-bottom: solid 1px #ECECEC;
@@ -44,6 +50,12 @@ export const DivCreateTopic = styled.div`
          
 
     }
+
+    @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            width: 90vw;
+            max-width: 90vw;
+        }
 
             h2{
                 color: #4E4E4E;

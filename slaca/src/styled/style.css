@@ -7,12 +7,8 @@
     /* height: 100%; */
     width: 44vw;
     height: 55vh;
-    max-width: 46vw;
-    max-height: 55vh;
-    
     object-fit: cover;
     object-position: center;
-
     /* border: solid green; */
 }
 
@@ -26,11 +22,6 @@
 .background-image:hover{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-}
-
-#Input{
-    /* border:solid; */
-    /* background-color: white; */
 }
 
 .border-create{
@@ -146,8 +137,8 @@ label{
 
     .background-image{
         /* margin-left: 1em; */
-        min-width: 96vw;
-        min-height: 20vh;
+        min-width: 89vw;
+        max-height: 80vh;
     }
 
     #Button-download{
@@ -155,12 +146,12 @@ label{
     }
 
     .nav{
-        left: -30vw;
+        left: -50vw;
     }
 
     input[type="checkbox"]:checked ~ .nav
 {
-    transform: translateX(30vw);
+    transform: translateX(50vw);
 }
     /* #language{
         width: auto;
@@ -177,3 +168,76 @@ label{
 
 }
 
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* celulares */
+        
+    #responses{
+        /* border:solid red; */
+        grid-template-columns: 0.6fr 0.2fr 0.1fr;
+    }
+
+    .background-image:hover{
+        -webkit-transform: none;
+        transform: none;
+    } 
+
+    .background-image{
+        /* margin-left: 1em; */
+        min-width: 100%;
+        /* min-height: 8vh; */
+        /* max-width: 46vw; */
+        /* max-height: 46vh; */
+    }
+
+    #Button-download{
+        width: 25vw;
+    }
+
+    .nav{
+        left: -90vw;
+    }
+
+    input[type="checkbox"]:checked ~ .nav
+{
+    transform: translateX(90vw);
+}
+    /* #language{
+        width: auto;
+    } */
+
+    #avatar-header{
+        height: 30px;
+        width: 30px;
+    }
+
+  
+}
+
+
+@media screen and (min-device-width : 1200px) {
+    /* computadores */
+
+    .nav{
+        left: -0vw;
+    }
+
+    input[type="checkbox"]:checked ~ .nav
+{
+    transform: translateX(0vw);
+}
+
+label{
+    /* padding: 15px;
+    position: absolute; */
+    z-index: 0;
+    /* cursor: pointer; */
+}
+
+.background-image{
+    min-width: 30vw;
+    max-height: 80vh;
+}
+
+
+}

@@ -51,8 +51,9 @@ export const DivBar = styled.div `
             
                 @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
                  height:23vh ;
-                 max-height: 23vh;
+                 max-height: 19vh;
                  object-fit: cover;
+                 max-width: 25vw;
                  object-position: center;
                   /* tablets */
                 }

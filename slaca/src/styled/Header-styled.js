@@ -4,12 +4,13 @@ import styled from "styled-components"
 export const DivHeader = styled.div`
     /* border: solid red 1px; */
     /* height: 11vh; */
+    width: 100%;
     background-color: #FDF1EB;
     display: grid;
-    grid-template-columns: 4fr 0.5fr 2fr;
+    grid-template-columns: 5fr 0.5fr 2fr;
 
     @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-        /* height: 9vh; */
+        height: 100%;
         /* border: solid 1px red; */
 
         /* tablets */
@@ -18,7 +19,7 @@ export const DivHeader = styled.div`
     main{
         /* border:solid green; */
         /* height: 10vh; */
-        margin-left: 7em;
+        margin-left: 9em;
         line-height: 0.5em;
 
         @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
@@ -30,6 +31,16 @@ export const DivHeader = styled.div`
         /* tablets */
         }
 
+        @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* celulares */
+             margin-left: 3em;
+            min-width: 54vw;
+            line-height: 3px;
+
+        }
+
+
+
         p{
             font-size: 15px;
             color:#725C5C;
@@ -38,6 +49,15 @@ export const DivHeader = styled.div`
             font-size: 13px;
 
         /* tablets */
+
+    
+        }
+        @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* celulares */
+            font-size: 9px;
+            line-height: 1em;
+            flex-wrap: wrap;
+
         }
         }
 
@@ -50,8 +70,27 @@ export const DivHeader = styled.div`
 
         /* tablets */
         }
+        @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            font-size: 10px;
+            line-height: 1em;
+            flex-wrap: wrap;
+
+
+
+        }
+
+
+
+
         }
     }
+
+
+
+
+
+
 
     div{
         /* border:solid pink; */
@@ -67,6 +106,12 @@ export const DivHeader = styled.div`
 
         /* tablets */
         }
+        @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            width: 60px;
+            /* margin-left: 0.3em; */
+        }
+        
     }
 
     section{
@@ -84,6 +129,18 @@ export const DivHeader = styled.div`
 
         /* tablets */
         }
+
+        @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            display: flex;
+            flex-direction:column-reverse;
+            align-items: flex-end;
+        }
+
+
+
+
+        
 
         div{
             display:flex;
@@ -103,6 +160,10 @@ export const DivHeader = styled.div`
                 font-size: 12px;
 
         /* tablets */
+        }
+        @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            font-size: 8px;
         }
             
             

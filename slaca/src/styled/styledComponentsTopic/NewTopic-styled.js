@@ -3,10 +3,11 @@ import styled from "styled-components"
 export const DivNewTopic = styled.div`
     display: flex;
     /* text-align: center; */
-    /* justify-content:center; */
+    justify-content:center;
     gap: 1em;
     justify-items:center;
     margin-bottom: 6vh;
+    /* border: solid; */
 
 
     h3{
@@ -25,6 +26,8 @@ export const DivNewTopic = styled.div`
         color: #F48F44;
         text-decoration-line: underline;
         cursor: pointer;
+
+        
     }
 
     p{
@@ -37,6 +40,13 @@ export const DivNewTopic = styled.div`
             margin-left: 2em;
 
     }
+
+    @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            font-size: 12px;
+            margin-left: 2em;
+        }
+        
         
     }
 
@@ -61,6 +71,12 @@ export const DivNewTopic = styled.div`
          
 
     }
+
+
+    @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            width: 40vw;
+        }
     }
 
     button:hover{
@@ -81,6 +97,9 @@ export const DivNewTopic = styled.div`
     margin-bottom: 10em;
     transition: all 0.9s;
     -webkit-filter: transition(1px);
+    /* border:solid #E7E7E7 1px ; */
+    width: 80vw;
+
 
     div{
         /* border:solid red; */
@@ -106,6 +125,12 @@ export const DivNewTopic = styled.div`
 
     }
 
+
+    @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            width: 40vw;
+        }
+
         h3{
             font-size: 16px;
             color: #707070;
@@ -119,6 +144,12 @@ export const DivNewTopic = styled.div`
     }
 
 
+    @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            font-size: 10px;
+        }
+
+
   
         }
 
@@ -127,7 +158,15 @@ export const DivNewTopic = styled.div`
             font-size: 14px;
             text-decoration-line: underline;
             cursor: pointer;
+
+            @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            font-size: 10px;
         }
+        }
+
+
+      
     }
     
     article:hover{
@@ -162,6 +201,13 @@ export const DivNewTopic = styled.div`
          
 
     }
+
+    @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            width: 75vw;
+            margin: 1px;
+            
+        }
 
         h5{
             color: #5C5C5C;

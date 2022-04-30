@@ -6,14 +6,26 @@ export const DivPostQuestion = styled.div`
     display: flex;
     margin-left: 3.5em;
 
+    @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            margin-left:0 ;
+        }
+
     h3{
         color: #ED7839;
         line-height: 0.1em;
+
     }
 
     p{
         text-align: center;
         color: #5C5C5C;
+
+
+        @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            font-size: 14px;
+        }
         
     }
     
@@ -23,6 +35,15 @@ export const DivPostQuestion = styled.div`
         border-top: solid 0.5px white;
         width: 60vw;
         max-width: 60vw;
+        /* border: solid; */
+
+        @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            width: 90vw;
+            max-width: 90vw;
+
+        }
+
 
        
         article{

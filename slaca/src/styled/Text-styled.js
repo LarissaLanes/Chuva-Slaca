@@ -14,7 +14,10 @@ export const DivText = styled.div`
         /* tablets */
         /* margin-left: 10vw; */
 
+
     }
+
+
 
     div{
         /* border: solid 1px purple; */
@@ -30,6 +33,11 @@ export const DivText = styled.div`
          
 
     }
+
+    @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            width: 90vw;
+        }
        
 
         section{

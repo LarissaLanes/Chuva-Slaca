@@ -30,10 +30,23 @@ export const DivQuestions = styled.div`
         @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
            //tablet
            width: 83vw;
+            }
+            @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            width: 83vw;
+            align-items:center;
+            
+        }
+/* 
+    @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+           //tablet
+           width: 83vw;
 
          
 
-    }
+    } */
+
+    
         div{
             width: 60vw;
             color: #757575;
@@ -45,12 +58,18 @@ export const DivQuestions = styled.div`
             /* position: absolute; */
 
                     @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-           //tablet
-           width: 83vw;
+                        //tablet
+                        width: 83vw;
+                    }
+    @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            width: 83vw;
+            align-items:center;
+            
+        }
 
-         
+  
 
-    }
 
         }
 

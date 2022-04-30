@@ -19,10 +19,18 @@ export const DivVideo = styled.div`
            /* border: solid; */
            flex-direction: column;
            align-items: center;
-         
-
     }
+    @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            flex-direction: column;
+           align-items: center;
+           width: 100%;
+        }
 `
+
+
+
+
 
 export const Section1 = styled.div`
     /* display: grid;
@@ -39,6 +47,15 @@ export const Section1 = styled.div`
            /* align-items:center; */
            /* display:none ; */
     }
+    @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            min-width: 96vw;
+        }
+
+
+
+
+    
 
     div{
         /* border: solid orange 1px; */
@@ -48,6 +65,11 @@ export const Section1 = styled.div`
         h2{
             color:#ED7839;
             margin-top: 1em;
+
+            @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            font-size: 16px;
+        }
         }
     }
     section{
@@ -86,30 +108,67 @@ export const Section1 = styled.div`
                 /* border: solid pink; */
                 width: 86vw;
                 height: 43vh;
-                  min-width: 92vw;
+                  min-width: 85vw;
             min-height: 56vw;
                 /* width: 50vh; */
              }
+             @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            width: 100%;
+                height: 51vh;
+            min-width: 90vw;
+            min-height: 90vw;
+        }
+
+           
+
+
             
             h1{
                 color: white;
                 /* display: inline; */
                 /* margin-bottom: 70vh; */
                 font-size:34px; 
+
+                @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            font-size:20px; 
+
+        }
+
             }
             div{
                 /* height: 17vh; */
-                /* width: 22vw; */
+                /* width: 60vw; */
                 /* border: solid; */
                 margin-left: 2em;
                 display: inline-block;
                 line-height: 0.5em;
+
+                @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            margin-left: 8em ;
+            /* width: 44vw; */
+
+           
+        }
+
             }
             h3, h2{
                 color: white;
                 /* display: inline; */
                 /* margin-bottom: 70vh; */
                 font-size:22px; 
+
+                @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            font-size: 16px;
+            flex-wrap: wrap;
+            line-height: 1em;
+            /* width: 44vw; */
+
+           
+        }
             }
             img{  
                 height: 10vh;
@@ -130,6 +189,13 @@ export const Section1 = styled.div`
                 height: 10vh;
              
              }
+
+             @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            width: 12vw;
+                height: 6vh;
+        }
+
             }
         }
 
@@ -142,17 +208,24 @@ export const Section2 = styled.div`
     grid-template-columns: 5fr 2fr; */
     /* border: solid red; */
     width: 17vw;
+
     @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
            //tablet
            /* border: solid red; */
           width: 90vw;
           /* height: 30vh; */
     }
+    @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            width: 90vw;
+
+           
+        }
 
 
     div{
-        /* border: solid red 1px; */
-        display: flex;
+        display: flex;        /* border: solid red 1px; */
+
         flex-direction:column;
         align-items: flex-end;
         line-height: 1px;
@@ -180,6 +253,8 @@ export const Section2 = styled.div`
             width: 4em;
             background: #ED7839;
             border-radius: 4px;
+
+       
 
             img{
                 height: 1.4em;
