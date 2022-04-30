@@ -9,63 +9,62 @@ export default function AccordionComponents() {
   return (
     <div>
       <Accordion disableElevation variant="contained">
-          <AccordionSummary >
-              <Typography sx={{width: "100%", flexShrink: 0}} >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Phasellus vitae turpis auctor, mollis felis ut, commodo turpis. 
-              Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus. 
-              Fusce auctor eros sed magna ultricies gravida. 
-              Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet. 
-              Donec finibus nisi tellus, ut viverra lorem vestibulum ut.  
-              Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. 
-              Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. 
-              Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum.  
-              Etiam aliquam dictum nisl, vel aliquet enim accumsan sit ametl accumsant...<h5>ver mais</h5>
-              </Typography>
-          </AccordionSummary>
-          <AccordionDetails >
-            <Typography sx={{width: "95%", flexShrink: 0}} >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Phasellus vitae turpis auctor, mollis felis ut, commodo turpis. 
-              Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus. 
-              Fusce auctor eros sed magna ultricies gravida. 
-              Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet. 
-              Donec finibus nisi tellus, ut viverra lorem vestibulum ut.  
-              Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. 
-              Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. 
-              Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum.  
-              Etiam aliquam dictum nisl, vel aliquet enim accumsan sit ametl accumsant.
-            </Typography>
-          </AccordionDetails>
-           <AccordionDetails>
-             <Typography sx={{width: "95%", flexShrink: 0}} >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Phasellus vitae turpis auctor, mollis felis ut, commodo turpis. 
-              Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus. 
-              Fusce auctor eros sed magna ultricies gravida. 
-              Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet. 
-              Donec finibus nisi tellus, ut viverra lorem vestibulum ut.  
-              Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. 
-              Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. 
-              Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum.  
-              Etiam aliquam dictum nisl, vel aliquet enim accumsan sit ametl accumsant.
-            </Typography>
-          </AccordionDetails>
-          <AccordionDetails>
-             <Typography sx={{width: "95%", flexShrink: 0}} >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Phasellus vitae turpis auctor, mollis felis ut, commodo turpis. 
-              Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus. 
-              Fusce auctor eros sed magna ultricies gravida. 
-              Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet. 
-              Donec finibus nisi tellus, ut viverra lorem vestibulum ut.  
-              Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. 
-              Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. 
-              Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum.  
-              Etiam aliquam dictum nisl, vel aliquet enim accumsan sit ametl accumsant.
-            </Typography>
-          </AccordionDetails>
-       
+        <AccordionSummary >
+          <Typography sx={{ width: "100%", flexShrink: 0 }} >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Phasellus vitae turpis auctor, mollis felis ut, commodo turpis.
+            Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus.
+            Fusce auctor eros sed magna ultricies gravida.
+            Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet.
+            Donec finibus nisi tellus, ut viverra lorem vestibulum ut.
+            Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus.
+            Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus.
+            Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum.
+            Etiam aliquam dictum nisl, vel aliquet enim accumsan sit ametl accumsant...<h5>ver mais</h5>
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails >
+          <Typography sx={{ width: "95%", flexShrink: 0 }} >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Phasellus vitae turpis auctor, mollis felis ut, commodo turpis.
+            Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus.
+            Fusce auctor eros sed magna ultricies gravida.
+            Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet.
+            Donec finibus nisi tellus, ut viverra lorem vestibulum ut.
+            Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus.
+            Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus.
+            Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum.
+            Etiam aliquam dictum nisl, vel aliquet enim accumsan sit ametl accumsant.
+          </Typography>
+        </AccordionDetails>
+        <AccordionDetails>
+          <Typography sx={{ width: "95%", flexShrink: 0 }} >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Phasellus vitae turpis auctor, mollis felis ut, commodo turpis.
+            Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus.
+            Fusce auctor eros sed magna ultricies gravida.
+            Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet.
+            Donec finibus nisi tellus, ut viverra lorem vestibulum ut.
+            Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus.
+            Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus.
+            Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum.
+            Etiam aliquam dictum nisl, vel aliquet enim accumsan sit ametl accumsant.
+          </Typography>
+        </AccordionDetails>
+        <AccordionDetails>
+          <Typography sx={{ width: "95%", flexShrink: 0 }} >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Phasellus vitae turpis auctor, mollis felis ut, commodo turpis.
+            Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus.
+            Fusce auctor eros sed magna ultricies gravida.
+            Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet.
+            Donec finibus nisi tellus, ut viverra lorem vestibulum ut.
+            Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus.
+            Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus.
+            Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum.
+            Etiam aliquam dictum nisl, vel aliquet enim accumsan sit ametl accumsant.
+          </Typography>
+        </AccordionDetails>
       </Accordion>
     </div>
   );

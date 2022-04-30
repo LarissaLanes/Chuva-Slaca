@@ -4,14 +4,11 @@
     border-radius: 3px;
     transition: all 0.8s;
     cursor: pointer;
-    /* height: 100%; */
     width: 44vw;
     height: 55vh;
     object-fit: cover;
     object-position: center;
-    /* border: solid green; */
 }
-
 
 .fundo-png{
     background-image: url("../assets/Vector\ 22fundo.png");
@@ -59,7 +56,6 @@ p{
     color: white;
 }
 
-
 #people-icon{
     gap: 12px;
 }
@@ -78,7 +74,6 @@ p{
 }
 
 #responses{
-    /* border:solid; */
     display: grid;
     grid-template-columns: 2fr 0.2fr 0.2fr;
     align-items: center;
@@ -114,10 +109,7 @@ label{
     transition: all 0.5s;
 }
 
-
-
 #avatar-header{
-    /* border: #595959 solid; */
     height: 50px;
     width: 50px;
 }
@@ -126,7 +118,6 @@ label{
     /* tablets */
     
     #responses{
-        /* border:solid red; */
         grid-template-columns: 1.5fr 0.2fr 0.2fr;
     }
 
@@ -136,7 +127,6 @@ label{
     } 
 
     .background-image{
-        /* margin-left: 1em; */
         min-width: 89vw;
         max-height: 80vh;
     }
@@ -150,30 +140,20 @@ label{
     }
 
     input[type="checkbox"]:checked ~ .nav
-{
-    transform: translateX(50vw);
-}
-    /* #language{
-        width: auto;
-    } */
+    {
+        transform: translateX(50vw);
+    }
 
     #avatar-header{
         height: 30px;
         width: 30px;
     }
-
-  
-
-
-
 }
-
 
 @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
     /* celulares */
         
     #responses{
-        /* border:solid red; */
         grid-template-columns: 0.6fr 0.2fr 0.1fr;
     }
 
@@ -183,11 +163,7 @@ label{
     } 
 
     .background-image{
-        /* margin-left: 1em; */
         min-width: 100%;
-        /* min-height: 8vh; */
-        /* max-width: 46vw; */
-        /* max-height: 46vh; */
     }
 
     #Button-download{
@@ -199,45 +175,33 @@ label{
     }
 
     input[type="checkbox"]:checked ~ .nav
-{
-    transform: translateX(90vw);
-}
-    /* #language{
-        width: auto;
-    } */
-
+    {
+        transform: translateX(90vw);
+    }
+  
     #avatar-header{
         height: 30px;
         width: 30px;
     }
-
-  
 }
-
 
 @media screen and (min-device-width : 1200px) {
     /* computadores */
-
     .nav{
         left: -0vw;
     }
 
     input[type="checkbox"]:checked ~ .nav
-{
-    transform: translateX(0vw);
-}
+    {
+        transform: translateX(0vw);
+    }
 
-label{
-    /* padding: 15px;
-    position: absolute; */
-    z-index: 0;
-    /* cursor: pointer; */
-}
+    label{
+        z-index: 0;
+    }
 
-.background-image{
-    min-width: 30vw;
-    max-height: 80vh;
-}
-
-
+    .background-image{
+        min-width: 30vw;
+        max-height: 80vh;
+    }
 }

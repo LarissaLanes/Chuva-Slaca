@@ -3,10 +3,8 @@ import "../styled/style.css";
 import perfilVideo from "../assets/perfil.png"
 import StarRoundedIcon from '@mui/icons-material/StarRounded';
 import DownloadRoundedIcon from '@mui/icons-material/DownloadRounded';
-import Avatar from '@mui/material/Avatar';
-import Stack from '@mui/material/Stack';
 import doi from "../assets/doi.png"
-import dowload from "../assets/download.png"
+
 
 const VideoPage = () => {
     return(
@@ -34,7 +32,6 @@ const VideoPage = () => {
                         <li>
                             <button id="Button-download">
                                 <DownloadRoundedIcon/>
-                                {/* <img src={dowload}/> */}
                                 Download
                             </button>
                         </li>
@@ -81,9 +78,7 @@ const VideoPage = () => {
                         ³Instituto Nacional de Pesquisas Espaciais
                         ⁴Universidade Federal do Rio de Janeiro.
                         </h4>
-                       
                         </p>
-                       
                     </aside>
                 </section>
             </Section2>

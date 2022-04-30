@@ -2,13 +2,10 @@ import styled from "styled-components"
 
 export const DivNewTopic = styled.div`
     display: flex;
-    /* text-align: center; */
     justify-content:center;
     gap: 1em;
     justify-items:center;
     margin-bottom: 6vh;
-    /* border: solid; */
-
 
     h3{
         color: #ED7839;
@@ -19,15 +16,12 @@ export const DivNewTopic = styled.div`
 
     h4{
         color: #F48F44;
-        
     }
 
     h5{
         color: #F48F44;
         text-decoration-line: underline;
         cursor: pointer;
-
-        
     }
 
     p{
@@ -38,21 +32,16 @@ export const DivNewTopic = styled.div`
         @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
            //tablet
             margin-left: 2em;
+        }
 
-    }
-
-    @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
             //celulares
             font-size: 12px;
             margin-left: 2em;
         }
-        
-        
     }
 
-
     button{
-        /* margin-bottom: 3em; */
         width: 14vw;
         height: 4vh;
         border:none;
@@ -64,16 +53,12 @@ export const DivNewTopic = styled.div`
         background: linear-gradient(180deg,#FEB254 0%, #F0813D 100% );
         box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.12);
 
-
         @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
            //tablet
            width: 20vw;
-         
+         }
 
-    }
-
-
-    @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
             //celulares
             width: 40vw;
         }
@@ -88,31 +73,21 @@ export const DivNewTopic = styled.div`
     }
 
     aside{
-        /* display: grid; */
-    /* grid-template-rows: 1fr 1fr; */
-    gap: 1px;
-    display: flex;
-    justify-content:center;
-    /* margin-right: 69vw; */
-    margin-bottom: 10em;
-    transition: all 0.9s;
-    -webkit-filter: transition(1px);
-    /* border:solid #E7E7E7 1px ; */
-    width: 80vw;
-
+        gap: 1px;
+        display: flex;
+        justify-content:center;
+        margin-bottom: 10em;
+        transition: all 0.9s;
+        -webkit-filter: transition(1px);
+        width: 80vw;
 
     div{
-        /* border:solid red; */
         position: absolute;
         width: 20vw;
-        /* min-width: 20vw; */
-        /* height: 12vh; */
-        /* margin: 1em; */
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top:3em;
-        /* padding: 1em; */
         z-index: 1;
         transition: all 0.9s;
         -webkit-filter: transition(1px);
@@ -120,13 +95,9 @@ export const DivNewTopic = styled.div`
         @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
            //tablet
            width: 60vw ;
-            /* width: 25vw; */
-         
+        }
 
-    }
-
-
-    @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
             //celulares
             width: 40vw;
         }
@@ -135,22 +106,16 @@ export const DivNewTopic = styled.div`
             font-size: 16px;
             color: #707070;
             line-height: 0.5em;
-            /* border:solid; */
+
             @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
            //tablet
             font-size: 13px;
-         
+            }
 
-    }
-
-
-    @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
             //celulares
             font-size: 10px;
-        }
-
-
-  
+            }
         }
 
         p{
@@ -162,11 +127,8 @@ export const DivNewTopic = styled.div`
             @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
             //celulares
             font-size: 10px;
-        }
-        }
-
-
-      
+            }
+        } 
     }
     
     article:hover{
@@ -192,21 +154,16 @@ export const DivNewTopic = styled.div`
         box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
         position: absolute;
         z-index: 0;
-        /* border: solid; */
 
         @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
            //tablet
            width: 78vw;
+        }
 
-         
-
-    }
-
-    @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
             //celulares
             width: 75vw;
             margin: 1px;
-            
         }
 
         h5{
@@ -217,16 +174,6 @@ export const DivNewTopic = styled.div`
 
         p{
             color: #4D4D4D;
-            
         }
-
-    
     }
-
-
-
-   
-
-  
-
 `

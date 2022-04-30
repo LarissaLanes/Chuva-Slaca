@@ -20,8 +20,7 @@ const GlobalStateProvider = (props) => {
     const handleSecondaryClickFalse = () => {
         setSecondaryState(false)
     }
-   
-   
+
     const data = {
         initialState,
         handleClickFalse,
@@ -30,7 +29,7 @@ const GlobalStateProvider = (props) => {
         handleSecondaryClickTrue,
         handleSecondaryClickFalse
 
-        
+
     }
 
     return (

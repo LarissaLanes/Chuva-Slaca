@@ -5,31 +5,25 @@ import VideoPage from "../components/VideoPage";
 import Text from "../components/Text"
 import CreateTopic from "../components/CreateTopic";
 import Footer from "../components/Footer";
-import Created from "../components/componentsOfCreateATopic/Created";
 import { useContext } from "react";
 import GlobalStateContext from "../global/GlobalStateContext";
 import ChangeState from "../components/ChangeState";
 
 const HomePage = () => {
-    const {initialState} = useContext(GlobalStateContext)
+    const { initialState } = useContext(GlobalStateContext)
 
-
-    return(
+    return (
         <DivHome>
             <div>
-            <NavBar/>
+                <NavBar />
             </div>
-
             <div>
-                <Header/>
-                <VideoPage/>
-                <Text/>
-                {initialState ? (<CreateTopic/>) : (<ChangeState/>)}
-                {/* <CreateTopic/> */}
-                <Footer/>
+                <Header />
+                <VideoPage />
+                <Text />
+                {initialState ? (<CreateTopic />) : (<ChangeState />)}
+                <Footer />
             </div>
-            
-            
         </DivHome>
     )
 }

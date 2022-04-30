@@ -6,9 +6,9 @@ import "../styled/style.css"
 const NavBar = () => {
     return (
         <div className="Nav-Bar">
-            <input type="checkbox" id="check"/>
+            <input type="checkbox" id="check" />
             <label for="check">
-                <MenuRoundedIcon/>
+                <MenuRoundedIcon />
             </label>
             <DivBar className="nav">
                 <SlacaHeader>

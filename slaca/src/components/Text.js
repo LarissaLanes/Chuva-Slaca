@@ -3,14 +3,14 @@ import Accordions from "./bootstratp/Accordion";
 import "../styled/style.css"
 
 const Text = () => {
-    return(
+    return (
         <DivText id="authors">
             <div className="border-create">
                 <section>
                     <h2>Resumo</h2>
                 </section>
                 <article>
-                    <Accordions/>
+                    <Accordions />
                 </article>
             </div>
         </DivText>
