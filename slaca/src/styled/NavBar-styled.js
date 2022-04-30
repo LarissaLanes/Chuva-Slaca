@@ -10,12 +10,10 @@ export const DivBar = styled.div `
    
     @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
         grid-template-rows: 0.1fr 0.5fr 3fr;
-        /* tablets */
      }
         
     div{
         @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-            //tablet
             max-width: 26vw;
             width: 26vw;
         }
@@ -29,7 +27,6 @@ export const DivBar = styled.div `
                     object-fit: cover;
                     max-width: 25vw;
                     object-position: center;
-                    /* tablets */
                 }
         }
         
@@ -50,7 +47,6 @@ export const DivBar = styled.div `
                     @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
                         margin-left: 0;
                         font-size: 1.0em;
-                    /* tablets */
                     }
                     
                 }
@@ -79,7 +75,6 @@ export const SlacaHeader = styled.div `
 
         @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
             font-size: 35px
-            /* tablets */
         }
     }
 `

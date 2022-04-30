@@ -10,10 +10,9 @@ export const DivCreated = styled.div`
 
     @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
         font-size: 16px;
-        /* tablets */
     }
+
     @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-        //celulares
         font-size: 13px;  
         }
     }
@@ -23,11 +22,9 @@ export const DivCreated = styled.div`
 
     @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
         font-size: 15px
-        /* tablets */
     }
 
     @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            //celulares
             font-size: 12px;
             margin-left: 2em;
         }
@@ -40,7 +37,6 @@ export const DivCreated = styled.div`
 
          @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
             gap: 2em;
-            /* tablets */
         }
 
          li{
@@ -71,11 +67,9 @@ export const DivCreated = styled.div`
 
         @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
             width: 18vw;
-        /* tablets */
         }
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            //celulares
             width: 38vw;  
         }
     }

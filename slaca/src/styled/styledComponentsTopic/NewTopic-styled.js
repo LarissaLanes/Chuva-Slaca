@@ -30,12 +30,10 @@ export const DivNewTopic = styled.div`
 
 
         @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-           //tablet
             margin-left: 2em;
         }
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            //celulares
             font-size: 12px;
             margin-left: 2em;
         }
@@ -54,12 +52,10 @@ export const DivNewTopic = styled.div`
         box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.12);
 
         @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-           //tablet
            width: 20vw;
          }
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            //celulares
             width: 40vw;
         }
     }
@@ -93,12 +89,10 @@ export const DivNewTopic = styled.div`
         -webkit-filter: transition(1px);
 
         @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-           //tablet
            width: 60vw ;
         }
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            //celulares
             width: 40vw;
         }
 
@@ -108,12 +102,10 @@ export const DivNewTopic = styled.div`
             line-height: 0.5em;
 
             @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-           //tablet
             font-size: 13px;
             }
 
             @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            //celulares
             font-size: 10px;
             }
         }
@@ -125,7 +117,6 @@ export const DivNewTopic = styled.div`
             cursor: pointer;
 
             @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            //celulares
             font-size: 10px;
             }
         } 
@@ -156,12 +147,10 @@ export const DivNewTopic = styled.div`
         z-index: 0;
 
         @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-           //tablet
            width: 78vw;
         }
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            //celulares
             width: 75vw;
             margin: 1px;
         }

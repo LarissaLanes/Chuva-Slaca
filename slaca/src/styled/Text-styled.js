@@ -10,11 +10,9 @@ export const DivText = styled.div`
 
         @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
                 width: 90vw;
-                //tablet
         }
 
     @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            //celulares
             width: 90vw;
         }
        
@@ -29,17 +27,18 @@ export const DivText = styled.div`
 
                 @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
                     font-size: 19px;
-                    /* tablets */
                 }
             }
         }
         
         article{
+            position: static;
             
             p{
                 @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-                /* tablets */
                 font-size: 15px;
+                font-style: normal;
+                letter-spacing: 0.02em;
             }
 
         }

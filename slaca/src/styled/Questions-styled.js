@@ -17,12 +17,10 @@ export const DivQuestions = styled.div`
         box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);/
         
         @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-           //tablet
            width: 83vw;
         }
             
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            //celulares
             width: 83vw;
             align-items:center;  
         }
@@ -35,12 +33,10 @@ export const DivQuestions = styled.div`
             box-sizing: border-box; 
 
                 @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-                    //tablet
                     width: 83vw;
                 }
                 
                 @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-                    //celulares
                     width: 83vw;
                     align-items:center;
 

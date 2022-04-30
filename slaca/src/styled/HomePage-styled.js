@@ -5,7 +5,6 @@ export const DivHome = styled.div`
     grid-template-columns: 1fr 5fr;
 
     @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-           //tablet
            grid-template-columns:1fr;
            align-items: center;
     }

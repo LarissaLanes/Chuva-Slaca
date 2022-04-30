@@ -10,7 +10,6 @@ export const DivFooter = styled.div`
     gap:1em;
 
     @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-        //celulares
         display: flex;
         flex-direction: column;
         margin-left: 0.5em;
@@ -19,7 +18,6 @@ export const DivFooter = styled.div`
 
     @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
         width: 94vw;
-        /* tablets */
     }
 
     div{
@@ -28,11 +26,9 @@ export const DivFooter = styled.div`
 
         @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
               margin-top: 2em;
-            /* tablets */
         }
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            //celulares
                  max-height: 8vh;
                  object-fit: cover;
                  max-width: 49vw; */
@@ -44,11 +40,9 @@ export const DivFooter = styled.div`
 
             @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
                 height: 7vh;
-                /* tablets */
             }
             
             @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-                //celulares
                 height:10vh ;
                  max-height: 8vh;
                  object-fit: cover;
@@ -71,11 +65,9 @@ export const DivFooter = styled.div`
                 height: 2vh;
                 width: 15vh;
                 font-size: 12px;
-                /* tablets */
             }
 
             @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-                //celulares
                 width: 30vw;
                 height: 1.5em;
             }
@@ -99,11 +91,9 @@ export const DivFooter = styled.div`
 
             @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
                 font-size: 12px;
-                  /* tablets */
             }
 
             @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-                //celulares
                 font-size: 12px;
             }
         }
@@ -114,11 +104,9 @@ export const DivFooter = styled.div`
 
             @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
                 font-size:12px;
-                /* tablets */
             }
                
             @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-                //celulares
                 font-size:12px;
             }
         }

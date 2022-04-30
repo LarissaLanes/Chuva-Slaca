@@ -8,13 +8,11 @@ export const DivVideo = styled.div`
     gap: 1em;
 
     @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-           //tablet
            flex-direction: column;
            align-items: center;
     }
 
     @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            //celulares
             flex-direction: column;
             align-items: center;
             width: 100%;
@@ -25,12 +23,10 @@ export const Section1 = styled.div`
     width: 47.5vw;
     
     @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-           //tablet
            width: 89vw;
     }
 
     @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            //celulares
             min-width: 96vw;
      }
 
@@ -40,8 +36,7 @@ export const Section1 = styled.div`
             margin-top: 1em;
 
             @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            //celulares
-            font-size: 16px;
+                    font-size: 16px;
             }
         }
     }
@@ -58,15 +53,13 @@ export const Section1 = styled.div`
             padding :1em ;
 
             @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-                //tablet
-                width: 86vw;
+                     width: 86vw;
                 height: 43vh;
                 min-width: 85vw;
                 min-height: 56vw;
              }
             
              @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            //celulares
                 width: 100%;
                 height: 51vh;
                 min-width: 90vw;
@@ -78,8 +71,7 @@ export const Section1 = styled.div`
                 font-size:34px; 
 
                 @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-                    //celulares
-                    font-size:20px; 
+                            font-size:20px; 
                 }
             }
 
@@ -89,8 +81,7 @@ export const Section1 = styled.div`
                 line-height: 0.5em;
 
                 @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-                    //celulares
-                    margin-left: 8em ;
+                            margin-left: 8em ;
                 }
             }
 
@@ -99,8 +90,7 @@ export const Section1 = styled.div`
                 font-size:22px; 
 
                 @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-                    //celulares
-                    font-size: 16px;
+                            font-size: 16px;
                     flex-wrap: wrap;
                     line-height: 1em;
                  }
@@ -118,14 +108,12 @@ export const Section1 = styled.div`
                 object-position: center;
                 
                 @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-                    //tablet
-                    width: 11vw;
+                             width: 11vw;
                     height: 10vh;
                 }
 
                 @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-                    //celulares
-                    width: 12vw;
+                            width: 12vw;
                     height: 6vh;
                 }
             }
@@ -137,12 +125,10 @@ export const Section2 = styled.div`
     width: 17vw;
 
     @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-        //tablet
         width: 90vw;
     }
 
     @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            //celulares
             width: 90vw;
     }
 
@@ -184,7 +170,6 @@ export const Section2 = styled.div`
 }
 
     section{
-    
         article{
             border-radius: 4px 4px 0px 0px;
             background-color:#FDF1EB;
@@ -195,8 +180,7 @@ export const Section2 = styled.div`
                 margin-left: 1em;
 
                 @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-                    //tablet
-                    font-size: 19px;
+                             font-size: 19px;
                 }
             }
         }
