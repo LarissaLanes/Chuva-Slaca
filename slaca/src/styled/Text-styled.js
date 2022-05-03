@@ -35,6 +35,11 @@ export const DivText = styled.div`
             position: static;
             
             p{
+                font-family: 'Quicksand';
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: 0.02em;
+
                 @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
                 font-size: 15px;
                 font-style: normal;

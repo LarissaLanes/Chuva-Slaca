@@ -2,6 +2,7 @@ import * as React from 'react';
 import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
 import LanguageRoundedIcon from '@mui/icons-material/LanguageRounded';
+import globo from "../../assets/language imageglobo.png"
 
 export default function ComboBox() {
 
@@ -11,10 +12,10 @@ export default function ComboBox() {
       disablePortal
       id="language"
       options={languagens}
-      sx={{ width: 140 }}
+      sx={{ width: 110 }}
       fullWidth
       size="small"
-      renderInput={(params) => <TextField {...params} label={<LanguageRoundedIcon />} />}
+      renderInput={(params) => <TextField  {...params} label={<img src={globo} height="20"/>}  />}
     />
 
   );

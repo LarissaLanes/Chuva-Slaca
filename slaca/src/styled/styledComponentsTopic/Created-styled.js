@@ -7,6 +7,9 @@ export const DivCreated = styled.div`
 
     h3{
         color: #ED7839;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-style: normal;
 
     @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
         font-size: 16px;
@@ -19,6 +22,11 @@ export const DivCreated = styled.div`
 
     p{
         color: #595959;
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 400;
+        display: flex;
+        flex-wrap:wrap;
 
     @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
         font-size: 15px
@@ -50,6 +58,8 @@ export const DivCreated = styled.div`
      }
 
     button{
+        font-family: 'Quicksand';
+        font-weight: 700;
         margin-bottom: 3em;
         width: 9vw;
         align-items:center;
@@ -58,7 +68,7 @@ export const DivCreated = styled.div`
         height: 4vh;
         border:none;
         color: #FFFFFF;
-        font-size: 17px;
+        font-size: 15px;
         border-radius: 3px;
         transition: all 0.9s;
         -webkit-filter: transition(1px);

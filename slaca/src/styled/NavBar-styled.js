@@ -19,7 +19,8 @@ export const DivBar = styled.div `
         }
         
         img{
-            height: 38vh;
+            height: 32vh;
+            margin-left: 30px;
             
                 @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
                     height:23vh ;
@@ -43,6 +44,9 @@ export const DivBar = styled.div `
                     font-size: 1.3em;
                     margin-left:1em;
                     text-decoration: none;
+                    font-family: 'Quicksand', sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
 
                     @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
                         margin-left: 0;
@@ -71,10 +75,13 @@ export const SlacaHeader = styled.div `
     h1{
         display: flex;
         color: white;
-        font-size: 38.5px;
+        font-size: 38px;
+        color: "#FFFFFF";
+        font-family: "Roboto";
+        font-style: ;
 
         @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-            font-size: 35px
+            font-size: 35px;
         }
     }
 `

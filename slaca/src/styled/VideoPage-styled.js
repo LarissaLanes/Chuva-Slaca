@@ -34,6 +34,9 @@ export const Section1 = styled.div`
         h2{
             color:#ED7839;
             margin-top: 1em;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 900;
 
             @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
                     font-size: 16px;
@@ -140,6 +143,9 @@ export const Section2 = styled.div`
     
         h4{
             color:#ED7839;
+            font-family: 'Roboto';
+            font-weight: 500;
+            font-style:normal;
         }
 
         ul{
@@ -192,11 +198,16 @@ export const Section2 = styled.div`
 
         h5{
             color: #4E4E4E;
-            font-size: 0.9em;
+            font-size: 14px;
+            font-family: 'Quicksand';
         }
 
         p{
             color: #757575;
+            font-family: 'Quicksand';
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.3em;
         }
 
         h4{

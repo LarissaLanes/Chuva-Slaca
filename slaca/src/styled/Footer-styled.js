@@ -86,8 +86,11 @@ export const DivFooter = styled.div`
         margin-top: 1em;
 
         p{
-            font-size: 17px;
+            font-size: 16px;
             color:#4D4D4D;
+            font-family: 'Quicksand';
+            font-weight: 400;
+
 
             @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
                 font-size: 12px;
@@ -100,7 +103,9 @@ export const DivFooter = styled.div`
 
         h5{
             color: #5C5C5C;
-            font-size:16px;
+            font-size:18px;
+            font-family: 'Quicksand';
+            font-weight: 700;
 
             @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
                 font-size:12px;

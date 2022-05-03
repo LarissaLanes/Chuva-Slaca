@@ -27,9 +27,12 @@ export const DivHeader = styled.div`
         }
 
         p{
-            font-size: 15px;
+            font-size: 14px;
             color:#725C5C;
             font-family: "Roboto";
+            font-weight: 500;
+            font-style:normal;
+            line-height: 3px;
 
             @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
                 font-size: 13px;
@@ -37,12 +40,12 @@ export const DivHeader = styled.div`
             
             @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
                 font-size: 9px;
-                line-height: 1em;
+                line-height:1em;
                 flex-wrap: wrap;
             }
         }
 
-        h3{
+        /* h3{
             color:#725C5C;
             font-size: 19px;
             font-family: "Roboto";
@@ -56,7 +59,7 @@ export const DivHeader = styled.div`
                 line-height: 1em;
                 flex-wrap: wrap;
             }
-        }
+        } */
     }
 
     div{
@@ -97,11 +100,14 @@ export const DivHeader = styled.div`
             align-items: flex-end;
             line-height: 0.5px;
 
-            p,h4{
+            p{
                 color: #333333;
                 margin: 1em;
                 display: flex;
                 align-items: flex-end;
+                font-family: 'Quicksand';
+                font-style: normal;
+                font-weight: 400;
 
             @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
                 font-size: 12px;    

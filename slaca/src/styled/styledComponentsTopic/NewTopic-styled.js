@@ -11,22 +11,28 @@ export const DivNewTopic = styled.div`
         color: #ED7839;
         font-family: "Roboto";
         font-size: 18px;
-        font-style: "Bold";
+        font-weight: 700;
+        font-style: "normal";
     }
 
     h4{
         color: #F48F44;
+        font-family: 'Quicksand';
+        font-weight: 700;
     }
 
     h5{
         color: #F48F44;
         text-decoration-line: underline;
         cursor: pointer;
+        font-family: 'Quicksand';
     }
 
     p{
         color:#595959;
         font-size: 14px;
+        font-family: 'Quicksand';
+        font-weight: 400; 
 
 
         @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
@@ -40,7 +46,9 @@ export const DivNewTopic = styled.div`
     }
 
     button{
-        width: 14vw;
+        font-family: 'Quicksand';
+        font-weight: 700;
+        width: 15vw;
         height: 4vh;
         border:none;
         color: #FFFFFF;
@@ -97,6 +105,8 @@ export const DivNewTopic = styled.div`
         }
 
         h3{
+            font-family: 'Quicksand';
+            font-weight: 700;
             font-size: 16px;
             color: #707070;
             line-height: 0.5em;
@@ -115,6 +125,7 @@ export const DivNewTopic = styled.div`
             font-size: 14px;
             text-decoration-line: underline;
             cursor: pointer;
+            font-weight: 500;
 
             @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
             font-size: 10px;

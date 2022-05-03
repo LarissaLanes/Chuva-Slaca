@@ -39,8 +39,25 @@ h5{
     font-size: 15px;
 }
 
+#text-videoh2{
+    margin-left: 1em;
+    font-size: 25px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-style: normal;
+}
+
 p{
     color: #595959;
+}
+
+#text-header{
+    font-size: 22px;
+}
+
+#text-hello{
+    font-size: 14px;
+    font-weight: 500;
 }
 
 #Button-download{
@@ -50,6 +67,11 @@ p{
     display: inline-flex;
     align-items: center;
     justify-content: center;
+}
+
+#Button-download img{
+    height: 15px;
+    margin-right: 0.5em;
 }
 
 #Button-star{
@@ -66,6 +88,28 @@ p{
 
 .request{
     padding: 1em;
+}
+
+.request h4,h5,p{
+    font-family: 'Quicksand';
+}
+
+#text-likes{
+    font-weight: 300;
+    margin-left: 3em;
+}
+
+#heart{
+    position: absolute;
+    margin-left: 1.5em;
+    height: 15px;
+    margin-top: 4px;
+    color: white;
+}
+
+#quadro{
+    position: absolute;
+    margin-left: 2.4em;
 }
 
 .response1{
@@ -112,6 +156,18 @@ label{
 #avatar-header{
     height: 50px;
     width: 50px;
+}
+
+#two{
+    position: absolute;
+    top: 1.5em;
+    right: 7.3em;
+}
+
+#circle{
+    position: absolute;
+    top: 1.4em;
+
 }
 
 @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
