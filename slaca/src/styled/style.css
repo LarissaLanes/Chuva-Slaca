@@ -4,10 +4,12 @@
     border-radius: 3px;
     transition: all 0.8s;
     cursor: pointer;
-    width: 44vw;
+    width: 48vw;
     height: 55vh;
     object-fit: cover;
     object-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
 }
 
 .fundo-png{
@@ -161,14 +163,16 @@ label{
 #two{
     position: absolute;
     top: 1.5em;
-    right: 7.3em;
+    right: 9.9em;
 }
 
 #circle{
     position: absolute;
     top: 1.4em;
-
 }
+
+
+
 
 @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
     

@@ -5,7 +5,7 @@ export const DivVideo = styled.div`
     flex-direction: row;
     justify-content: center;
     margin-bottom:3em;
-    gap: 1em;
+    gap:3em;
 
     @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
            flex-direction: column;
@@ -48,18 +48,21 @@ export const Section1 = styled.div`
         article{
             z-index: 0;
             background: rgba(141, 53, 6, 0.521); 
-            width: 45.2vw;
-            height: 50vh;
-            max-width: 42vw;
-            max-height: 60vh;
+            width: 46vw;
+            max-width:47vw;
+            min-width: 46vw;
+            height: 53vh;
+            max-height: 51vh;
+            min-height: 30vh;
             border-radius: 3px;      
             padding :1em ;
+           
 
             @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-                     width: 86vw;
-                height: 43vh;
+                width: 86vw;
+                height: 10vh;
                 min-width: 85vw;
-                min-height: 56vw;
+                min-height: 46vw;
              }
             
              @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -176,6 +179,8 @@ export const Section2 = styled.div`
 }
 
     section{
+        height: 54vh;
+
         article{
             border-radius: 4px 4px 0px 0px;
             background-color:#FDF1EB;

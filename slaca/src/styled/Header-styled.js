@@ -4,14 +4,15 @@ export const DivHeader = styled.div`
     width: 100%;
     background-color: #FDF1EB;
     display: grid;
-    grid-template-columns:5fr 0.5fr 2fr;
+    height: 10vh;
+    grid-template-columns: 5fr 0.5fr 2fr;
 
     @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
         height: 100%;
     }
 
     main{
-        margin-left: 10em;
+        margin-left: 9.3em;
         line-height: 0.5em;
 
         @media screen and (min-device-width : 481px) and (max-device-width : 800px) {

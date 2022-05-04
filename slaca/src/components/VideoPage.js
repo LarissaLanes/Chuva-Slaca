@@ -75,7 +75,7 @@ const VideoPage = () => {
                         Stephen Hawking⁴
                         <br/>
                         <h4>
-                         ¹Universidade Estadual de Campinas
+                        ¹Universidade Estadual de Campinas
                         ²Universidade de São Paulo
                         ³Instituto Nacional de Pesquisas Espaciais
                         ⁴Universidade Federal do Rio de Janeiro.

@@ -1,13 +1,14 @@
 import styled from "styled-components"
 
 export const DivFooter = styled.div`
-    border-top:solid 1px #ECECEC;
+    border-top: solid 1px #ECECEC;
     margin-top: 4em;
     margin-bottom: 4em;
     display: grid;
     grid-template-columns: 0.5fr 2fr;
     margin-left: 4em;
     gap:1em;
+    width: 72vw;
 
     @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
         display: flex;
@@ -43,7 +44,7 @@ export const DivFooter = styled.div`
             }
             
             @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-                height:10vh ;
+                 height:10vh ;
                  max-height: 8vh;
                  object-fit: cover;
                  max-width: 49vw;
@@ -56,6 +57,8 @@ export const DivFooter = styled.div`
             width: 13vw;
             border-radius: 5px;
             border:none;
+            font-family: 'Quicksand';
+            font-weight: 500;
             color: #FFFFFF;
             font-size: 17px;
             background: linear-gradient(180deg,#71478e 0%, #341947 100%);

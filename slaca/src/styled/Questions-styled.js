@@ -11,7 +11,7 @@ export const DivQuestions = styled.div`
 
     article{
         border:  1px solid #E7E7E7;
-        width: 60vw;
+        width: 65vw;
         border-radius: 4px;
         margin: 1em;
         box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);/
@@ -26,7 +26,7 @@ export const DivQuestions = styled.div`
         }
 
         div{
-            width: 60vw;
+            width: 65vw;
             color: #757575;
             display: flex;
             flex-direction:column;

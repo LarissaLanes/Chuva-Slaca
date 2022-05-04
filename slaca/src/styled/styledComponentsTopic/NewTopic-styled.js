@@ -149,7 +149,7 @@ export const DivNewTopic = styled.div`
         -webkit-filter: blur(3px);
         filter:blur(2px);
         transition: all 0.7s;
-        width: 58vw;
+        width: 63vw;
         padding: 1em;
         border-radius: 4px;
         margin: 1em;

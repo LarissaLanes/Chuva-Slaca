@@ -3,11 +3,11 @@ import styled from "styled-components"
 export const DivPostQuestion = styled.div`
     margin-bottom: 3em;
     display: flex;
-    margin-left: 3.5em;
+    margin-left: 1.1em;
 
-    @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            //celulares
-            margin-left:0 ;
+        @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                //celulares
+                margin-left:0 ;
         }
 
     h3{
@@ -34,8 +34,8 @@ export const DivPostQuestion = styled.div`
         display: grid;
         grid-template-columns: 4fr 0.1fr 1.5fr ;
         border-top: solid 0.5px white;
-        width: 60vw;
-        max-width: 60vw;
+        width: 65vw;
+        max-width: 65vw;
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
             //celulares

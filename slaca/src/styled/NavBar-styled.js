@@ -6,7 +6,8 @@ export const DivBar = styled.div `
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     position: fixed;
     height: 100%;
-    background-color: white ;
+    background-color: white;
+    /* z-index: 1; */
    
     @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
         grid-template-rows: 0.1fr 0.5fr 3fr;
@@ -21,10 +22,11 @@ export const DivBar = styled.div `
         img{
             height: 32vh;
             margin-left: 30px;
+            min-width: 10vh;
             
                 @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-                    height:23vh ;
-                    max-height: 19vh;
+                    height: 18vh ;
+                    max-height: 20vh;
                     object-fit: cover;
                     max-width: 25vw;
                     object-position: center;
@@ -69,19 +71,19 @@ export const SlacaHeader = styled.div `
     background: linear-gradient(180deg, #FFB354 30%, #EE7A3A 100%);
     display: flex;
     justify-content:center;
-    width: 39vh;
+    width: 37vh;
     z-index: 0;
 
     h1{
         display: flex;
         color: white;
-        font-size: 38px;
+        font-size: 39px;
         color: "#FFFFFF";
         font-family: "Roboto";
         font-style: ;
 
         @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-            font-size: 35px;
+            font-size: 30px;
         }
     }
 `
