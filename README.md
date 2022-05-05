@@ -18,6 +18,18 @@ Libs:
 * MaterialUI
 * Styled-componets
 
+### Rodando o projeto 🚀
+```
+FAÇA UM CLONE DO REPÓSITORIO NO SEU TERMINAL USANDO O COMANDO: GIT CLONE...(URL)
+
+DE UM NPM INSTALL NO SEU TERMINAL PARA LEVAR O PROJETO PARA A SUA MAQUINA
+
+ABRA O PROJETO USANDO CD..(nome do projeto)
+
+EM SEGUIDA USE O COMANDO: NPM RUN START PARA RODAR O PROJETO NA WEB
+
+```
+
 Desenvolvedor: Larissa Lanes
 
 ### Prints Arts
