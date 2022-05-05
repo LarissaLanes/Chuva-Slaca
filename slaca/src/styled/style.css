@@ -264,7 +264,18 @@ label{
         width: 30px;
     }
 
-  
+    #text-header{
+        font-size: 0.7em;
+    }
+
+    #two{
+        left: 102%;
+        color: red;
+    }
+
+    #text-hello{
+        font-size: 0.5em;
+    }
 }
 
 @media screen and (min-device-width : 1200px) {

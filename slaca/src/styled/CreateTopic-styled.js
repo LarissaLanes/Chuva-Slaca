@@ -46,6 +46,10 @@ export const DivCreateTopic = styled.div`
                 @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
                    font-size: 19px;
                  } 
+
+                 @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                    font-size: 13px;
+                }
             }
         }
     }

@@ -23,8 +23,8 @@ export const DivHeader = styled.div`
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
             margin-left: 3em;
-            min-width: 54vw;
-            line-height: 3px;
+            min-width: 60vw;
+            line-height: 0.1px;
         }
 
         p{
@@ -37,11 +37,13 @@ export const DivHeader = styled.div`
 
             @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
                 font-size: 11px;
+                line-height:1em;
+                flex-wrap: wrap;
             }
             
             @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
                 font-size: 9px;
-                line-height:1em;
+                line-height: 0.8em;
                 flex-wrap: wrap;
             }
         }
