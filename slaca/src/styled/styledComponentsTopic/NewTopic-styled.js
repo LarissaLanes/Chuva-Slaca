@@ -42,17 +42,12 @@ export const DivNewTopic = styled.div`
         font-family: 'Quicksand';
         font-weight: 400; 
 
-
-     
-
-
         @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
             margin-left: 2em;
         }
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
             font-size: 11px;
-            /* margin-left: 2em; */
         }
     }
 

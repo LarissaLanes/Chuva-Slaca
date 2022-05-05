@@ -13,7 +13,6 @@ export const DivFooter = styled.div`
     @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
         display: flex;
         flex-direction: column-reverse;
-        /* margin-left: 2em; */
         align-items:center;
     }
 
@@ -25,11 +24,7 @@ export const DivFooter = styled.div`
     div{
         text-align:center;
         margin-top: 1em;
-
-        @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
-              /* margin-top: 2em; */
-        }
-
+        
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
                  max-height: 8vh;
                  object-fit: cover;

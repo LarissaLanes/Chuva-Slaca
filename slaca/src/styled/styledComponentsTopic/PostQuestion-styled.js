@@ -6,7 +6,6 @@ export const DivPostQuestion = styled.div`
     margin-left: 1.1em;
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-                //celulares
                 margin-left:1em ;
         }
 
@@ -18,7 +17,6 @@ export const DivPostQuestion = styled.div`
         font-weight:700;
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            //celulares
             font-size: 12px;
         }
     }
@@ -34,7 +32,6 @@ export const DivPostQuestion = styled.div`
         }
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            //celulares
             font-size: 11px;
             margin-right: 2em;
         }
@@ -48,12 +45,9 @@ export const DivPostQuestion = styled.div`
         max-width: 65vw;
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            //celulares
             width: 83vw;
             max-width: 83vw;
         }
-
-
         @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
             width: 85vw;
             max-width: 85vw;
@@ -94,7 +88,6 @@ export const DivPostQuestion = styled.div`
                    font-size: 11px;
             }
         }
-
         button:hover{
             cursor:pointer;
             color: #FEB254;

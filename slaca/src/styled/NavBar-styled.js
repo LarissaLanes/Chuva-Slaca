@@ -7,12 +7,9 @@ export const DivBar = styled.div `
     position: fixed;
     height: 100%;
     background-color: white;
-    /* z-index: 1; */
    
     @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
-        /* grid-template-rows: 0.1fr 0.5fr 3fr; */
         width: 30vw;
-        /* z-index: 1; */
      }
         
     div{
@@ -30,7 +27,6 @@ export const DivBar = styled.div `
                     height: 17vh ;
                     max-height: 25vh;
                     object-fit: cover;
-                    /* max-width: 25vw; */
                     object-position: center;
                 }
         }
@@ -56,7 +52,6 @@ export const DivBar = styled.div `
                         margin-left: 0;
                         font-size: 1.0em;
                     }
-                    
                 }
             }
 
@@ -66,7 +61,6 @@ export const DivBar = styled.div `
                 border-bottom: none;
             }
         }    
-
 `
 
 export const SlacaHeader = styled.div `

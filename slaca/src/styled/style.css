@@ -45,16 +45,6 @@ p{
     color: #595959;
 }
 
-#text-header{
-    font-size: 22px;
-}
-
-#text-hello{
-    font-size: 14px;
-    font-weight: 500;
-
-}
-
 #Button-download{
     width: 7.5vw;
     color: white;
@@ -110,7 +100,6 @@ p{
 .response1{
     border-bottom: #cfcfcf solid 1px;
     background-color: #F8F8F8;
-    /* border: solid; */
 }
 
 #responses{
@@ -121,8 +110,6 @@ p{
 
 .response2{
     border-bottom: #cfcfcf solid 1px;
-    /* border: solid; */
-
 }
 
 #iconButton-back{
@@ -151,24 +138,49 @@ label{
     transition: all 0.5s;
 }
 
+
+/* estilização do header */
+
 #avatar-header{
-    height: 50px;
-    width: 50px;
+    margin-top: 10px;
 }
 
 #two{
     position: absolute;
-    top: 1.5em;
-    right: 9.9em;
+    top: 2.1em;
+    right: 9.1em;
 }
 
 #circle{
     position: absolute;
-    top: 1.4em;
+    top: 2em;
+    right: 9em;
 }
 
+.texts-header{
+    margin-right: 10em;
+    line-height: 0.3em;
+    width: 40vw;
+}
 
+#text-header{
+    font-size: 22px ;
+    font-weight: 500;
+}
 
+#text-hello{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.div-text-hello{
+    display: flex;
+    flex-direction: column;
+    line-height: 0.05em;
+    align-items: flex-end;
+}
+
+/* responsividade com media */
 
 @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
     
@@ -200,27 +212,31 @@ label{
     }
 
     #avatar-header{
-        height: 30px;
-        width: 30px;
+        height: 40px;
+        width: 40px;
+        margin-left: 7px;
     }
 
     #text-header{
         font-size: 13px;
     }
 
+    .texts-header{
+        font-size: 10px;
+        margin-right: 0em;
+        width: 52vw;
+        line-height: 1em
+    }
+
     #two{
-        right: 1.2em;
-        top: 2.4em;
+        right: 1.6em;
+        top: 2.6em;
     }
 
     #circle{
-        margin-top: 1em;
+        right: 1.5em;
+        top: 40px;
     }
-
-    /* #div-text-video{
-        border: solid red;
-    } */
-
 }
 
 @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -254,15 +270,27 @@ label{
     #avatar-header{
         height: 30px;
         width: 30px;
+        left: 3em;
     }
 
     #text-header{
-        font-size: 0.7em;
+        font-size: 9px;
+    }
+    
+    .texts-header{
+        font-size: 7px;
+        margin-right: 0;
+        line-height: 1.5em;
     }
 
     #two{
-        left: 102%;
-        color: red;
+        right: 4.2vw;
+        top: 2vh;
+    }
+    
+    #circle{
+        right: 4vw;
+        top: 2vh;
     }
 
     #text-hello{
@@ -290,10 +318,5 @@ label{
 
     label{
         z-index: 0;
-    }
-
-    .background-image{
-        min-width: 30vw;
-        max-height: 80vh;
     }
 }
