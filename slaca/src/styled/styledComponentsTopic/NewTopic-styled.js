@@ -13,12 +13,20 @@ export const DivNewTopic = styled.div`
         font-size: 18px;
         font-weight: 700;
         font-style: "normal";
+
+        @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            font-size: 13px;
+        }
     }
 
     h4{
         color: #F48F44;
         font-family: 'Quicksand';
         font-weight: 700;
+
+        @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            font-size: 12px;
+        }
     }
 
     h5{
@@ -35,13 +43,16 @@ export const DivNewTopic = styled.div`
         font-weight: 400; 
 
 
+     
+
+
         @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
             margin-left: 2em;
         }
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            font-size: 12px;
-            margin-left: 2em;
+            font-size: 11px;
+            /* margin-left: 2em; */
         }
     }
 
@@ -67,6 +78,9 @@ export const DivNewTopic = styled.div`
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
             width: 40vw;
+            height: 3vh;
+            font-size: 11px;
+
         }
     }
 
@@ -103,7 +117,8 @@ export const DivNewTopic = styled.div`
         }
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            width: 40vw;
+            width: 50vw;
+            min-width: 40vw;
         }
 
         h3{

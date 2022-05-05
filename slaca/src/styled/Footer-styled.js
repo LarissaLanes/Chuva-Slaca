@@ -12,8 +12,8 @@ export const DivFooter = styled.div`
 
     @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
         display: flex;
-        flex-direction: column;
-        margin-left: 0.5em;
+        flex-direction: column-reverse;
+        /* margin-left: 2em; */
         align-items:center;
     }
 
@@ -76,8 +76,9 @@ export const DivFooter = styled.div`
             }
 
             @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-                width: 30vw;
-                height: 1.5em;
+                width: 33vw;
+                height: 2em;
+                font-size: 12px;
             }
         }
 
@@ -105,7 +106,7 @@ export const DivFooter = styled.div`
             }
 
             @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-                font-size: 12px;
+                font-size: 11px;
             }
         }
 
@@ -120,7 +121,7 @@ export const DivFooter = styled.div`
             }
                
             @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-                font-size:12px;
+                font-size:11px;
             }
         }
     }

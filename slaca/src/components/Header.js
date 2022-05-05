@@ -8,7 +8,7 @@ import circle from "../assets/basiccircle.png"
 const Header = () => {
     return (
         <DivHeader>
-            <main>
+            {/* <main>
                 <p>Anais do Simpósio Latino Americano de Ciências de Alimentos </p>
                 <p id="text-header">Anais do 13º Simpósio Latino Americano de Ciência de Alimentos </p>
                 <p>ISSN: 1234-5678</p>
@@ -27,7 +27,7 @@ const Header = () => {
                     <img src={two} id="two"/>
                 </div>
 
-            </section>
+            </section> */}
         </DivHeader>
     )
 }

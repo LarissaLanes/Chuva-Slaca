@@ -85,6 +85,10 @@ export const DivCreated = styled.div`
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
             width: 38vw;  
+            height: 3.5vh;
+            max-height: 4vh;
+            min-width: 30vw;
+            font-size: 11px;
         }
     }
 

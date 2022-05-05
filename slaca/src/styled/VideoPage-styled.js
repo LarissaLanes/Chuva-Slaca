@@ -221,12 +221,14 @@ export const Section2 = styled.div`
         /* border: solid yellow; */
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            height: 50vh;
+            min-height: 40vh;
+            max-height: 50vh;
         }
 
         @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
             height: 50vh;
-            /* max-height: 5vh; */
-            /* min-height: 49vh; */
+        
         }
 
         article{

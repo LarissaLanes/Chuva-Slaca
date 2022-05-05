@@ -276,6 +276,14 @@ label{
     #text-hello{
         font-size: 0.5em;
     }
+
+    h5{
+        font-size: 10px;
+    }
+
+    #quadro{
+        margin-left: 3em;
+    }
 }
 
 @media screen and (min-device-width : 1200px) {

@@ -7,7 +7,7 @@ export const DivPostQuestion = styled.div`
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
                 //celulares
-                margin-left:0 ;
+                margin-left:1em ;
         }
 
     h3{
@@ -16,6 +16,11 @@ export const DivPostQuestion = styled.div`
         font-family: 'Roboto';
         font-size: 16px;
         font-weight:700;
+
+        @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            //celulares
+            font-size: 12px;
+        }
     }
 
     p{
@@ -30,7 +35,8 @@ export const DivPostQuestion = styled.div`
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
             //celulares
-            font-size: 14px;
+            font-size: 11px;
+            margin-right: 2em;
         }
     }
     
@@ -43,8 +49,8 @@ export const DivPostQuestion = styled.div`
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
             //celulares
-            width: 90vw;
-            max-width: 90vw;
+            width: 83vw;
+            max-width: 83vw;
         }
 
 
@@ -81,6 +87,11 @@ export const DivPostQuestion = styled.div`
 
             @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
                    height: 2.2em;
+            }
+
+            @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                   height: 3em;
+                   font-size: 11px;
             }
         }
 

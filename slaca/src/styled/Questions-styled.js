@@ -54,10 +54,16 @@ export const DivQuestions = styled.div`
             color: #ED7839;
             font-size:16px;
             line-height: 0.5em;
+
+            @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                    font-size: 12px;
+            }
         }
 
         h5{
             color: #5C5C5C;
+
+           
         }
 
         p{
@@ -66,6 +72,11 @@ export const DivQuestions = styled.div`
 
             @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
                     font-size: 13px;
+            }
+
+
+            @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                    font-size: 11px;
             }
         }
     }
