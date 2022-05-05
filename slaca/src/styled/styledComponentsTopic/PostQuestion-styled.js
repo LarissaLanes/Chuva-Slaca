@@ -24,6 +24,10 @@ export const DivPostQuestion = styled.div`
         font-family: 'Quicksand';
         font-weight: 400;
 
+        @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
+            font-size: 14px;
+        }
+
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
             //celulares
             font-size: 14px;
@@ -41,6 +45,12 @@ export const DivPostQuestion = styled.div`
             //celulares
             width: 90vw;
             max-width: 90vw;
+        }
+
+
+        @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
+            width: 85vw;
+            max-width: 85vw;
         }
 
         article{
@@ -68,6 +78,10 @@ export const DivPostQuestion = styled.div`
             transition: all 0.9s;
             -webkit-filter: transition(1px);
             background: linear-gradient(180deg,#FEB254 0%, #F0813D 100% );
+
+            @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
+                   height: 2.2em;
+            }
         }
 
         button:hover{

@@ -29,13 +29,11 @@ const Questions = () => {
                                     1 like
                                     1 resposta
                                 </div>
-                          
                             </aside>
                         </Typography>
                     </AccordionSummary>
                     <AccordionDetails className="response1">
                         <Typography sx={{ width: "95%", flexShrink: 0 }} >
-
                             <div id="responses">
                                 <h5>Adriano da Silva</h5>
                                 <>

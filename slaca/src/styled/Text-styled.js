@@ -8,7 +8,7 @@ export const DivText = styled.div`
     div{
         width: 67vw;
 
-        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+        @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
                 width: 90vw;
         }
 
@@ -25,7 +25,7 @@ export const DivText = styled.div`
                 color: #4E4E4E;
                 margin-left: 1em;
 
-                @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+                @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
                     font-size: 19px;
                 }
             }
@@ -40,10 +40,8 @@ export const DivText = styled.div`
                 font-style: normal;
                 letter-spacing: 0.02em;
 
-                @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+                @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
                 font-size: 15px;
-                font-style: normal;
-                letter-spacing: 0.02em;
             }
 
         }

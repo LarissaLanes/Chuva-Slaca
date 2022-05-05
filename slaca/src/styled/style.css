@@ -60,6 +60,7 @@ p{
 #text-hello{
     font-size: 14px;
     font-weight: 500;
+
 }
 
 #Button-download{
@@ -117,6 +118,7 @@ p{
 .response1{
     border-bottom: #cfcfcf solid 1px;
     background-color: #F8F8F8;
+    /* border: solid; */
 }
 
 #responses{
@@ -127,6 +129,8 @@ p{
 
 .response2{
     border-bottom: #cfcfcf solid 1px;
+    /* border: solid; */
+
 }
 
 #iconButton-back{
@@ -174,7 +178,7 @@ label{
 
 
 
-@media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+@media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
     
     #responses{
         grid-template-columns: 1.5fr 0.2fr 0.2fr;
@@ -191,7 +195,7 @@ label{
     }
 
     #Button-download{
-        width: 15vw;
+        width: 20vw;
     }
 
     .nav{
@@ -207,6 +211,24 @@ label{
         height: 30px;
         width: 30px;
     }
+
+    #text-header{
+        font-size: 13px;
+    }
+
+    #two{
+        right: 1.2em;
+        top: 2.4em;
+    }
+
+    #circle{
+        margin-top: 1em;
+    }
+
+    /* #div-text-video{
+        border: solid red;
+    } */
+
 }
 
 @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -241,6 +263,8 @@ label{
         height: 30px;
         width: 30px;
     }
+
+  
 }
 
 @media screen and (min-device-width : 1200px) {

@@ -11,7 +11,7 @@ export const DivCreated = styled.div`
         font-weight: 700;
         font-style: normal;
 
-    @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+    @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
         font-size: 16px;
     }
 
@@ -28,8 +28,9 @@ export const DivCreated = styled.div`
         display: flex;
         flex-wrap:wrap;
 
-    @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-        font-size: 15px
+    @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
+        font-size: 12px;
+        margin-left: 4em;
     }
 
     @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -43,7 +44,7 @@ export const DivCreated = styled.div`
          display: flex;
          gap: 4em;
 
-         @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+         @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
             gap: 2em;
         }
 
@@ -75,8 +76,11 @@ export const DivCreated = styled.div`
         background: linear-gradient(180deg,#FEB254 0%, #F0813D 100% );
         box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.12);
 
-        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-            width: 18vw;
+        @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
+            width: 20vw;
+            height: 3vh;
+            max-height: 4vh;
+            min-width: 30vw;
         }
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {

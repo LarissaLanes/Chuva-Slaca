@@ -7,9 +7,10 @@ export const DivVideo = styled.div`
     margin-bottom:3em;
     gap:3em;
 
-    @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+    @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
            flex-direction: column;
            align-items: center;
+           /* margin-left: 50px; */
     }
 
     @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -22,8 +23,11 @@ export const DivVideo = styled.div`
 export const Section1 = styled.div`
     width: 47.5vw;
     
-    @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-           width: 89vw;
+    @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
+           width: 100%;
+           /* max-width: 110vw; */
+           /* min-width: 90vw; */
+           margin-left: 12vw;
     }
 
     @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -38,13 +42,31 @@ export const Section1 = styled.div`
             font-style: normal;
             font-weight: 900;
 
+            @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
+                font-size: 23px;
+                /* flex-wrap:wrap;
+                display: flex; */
+            }
+
             @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
                     font-size: 16px;
             }
         }
+
+        @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
+            width: 90vw;
+            min-width: 60vw;
+        }
+
     }
     
     section{
+        /* border: solid red; */
+
+        /* @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
+            height: 39vh;
+        } */
+        
         article{
             z-index: 0;
             background: rgba(141, 53, 6, 0.521); 
@@ -56,9 +78,11 @@ export const Section1 = styled.div`
             min-height: 30vh;
             border-radius: 3px;      
             padding :1em ;
+
+
            
 
-            @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+            @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
                 width: 86vw;
                 height: 10vh;
                 min-width: 85vw;
@@ -113,13 +137,13 @@ export const Section1 = styled.div`
                 object-fit:cover;
                 object-position: center;
                 
-                @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-                             width: 11vw;
-                    height: 10vh;
+                @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
+                    width: 10vw;
+                    height: 7vh;
                 }
 
                 @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-                            width: 12vw;
+                    width: 12vw;
                     height: 6vh;
                 }
             }
@@ -130,8 +154,10 @@ export const Section1 = styled.div`
 export const Section2 = styled.div`
     width: 17vw;
 
-    @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+    @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
         width: 90vw;
+        /* border: solid; */
+        /* height: 70vh; */
     }
 
     @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -181,6 +207,12 @@ export const Section2 = styled.div`
     section{
         height: 54vh;
 
+        @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
+            height: 50vh;
+            /* max-height: 5vh; */
+            /* min-height: 49vh; */
+        }
+
         article{
             border-radius: 4px 4px 0px 0px;
             background-color:#FDF1EB;
@@ -190,7 +222,7 @@ export const Section2 = styled.div`
                 color:#4E4E4E;
                 margin-left: 1em;
 
-                @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+                @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
                              font-size: 19px;
                 }
             }

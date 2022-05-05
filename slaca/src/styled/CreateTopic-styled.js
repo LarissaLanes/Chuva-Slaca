@@ -11,9 +11,10 @@ export const DivCreateTopic = styled.div`
         max-width: 67vw;
         display: grid;
 
-        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+        @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
             width: 90vw;
             max-width: 90vw;
+            
         }
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -28,7 +29,7 @@ export const DivCreateTopic = styled.div`
             width: 67vw;
             max-width: 67vw;
 
-            @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+            @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
                 width: 90vw;
                 max-width: 90vw;
             }
@@ -42,7 +43,7 @@ export const DivCreateTopic = styled.div`
                 color: #4E4E4E;
                 margin-left: 1em;
 
-                @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+                @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
                    font-size: 19px;
                  } 
             }

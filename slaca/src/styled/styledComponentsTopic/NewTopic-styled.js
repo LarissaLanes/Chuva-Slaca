@@ -35,7 +35,7 @@ export const DivNewTopic = styled.div`
         font-weight: 400; 
 
 
-        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+        @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
             margin-left: 2em;
         }
 
@@ -59,8 +59,10 @@ export const DivNewTopic = styled.div`
         background: linear-gradient(180deg,#FEB254 0%, #F0813D 100% );
         box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.12);
 
-        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+        @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
            width: 20vw;
+           height: 2em;
+           min-width: 30vw;
          }
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -96,7 +98,7 @@ export const DivNewTopic = styled.div`
         transition: all 0.9s;
         -webkit-filter: transition(1px);
 
-        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+        @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
            width: 60vw ;
         }
 
@@ -111,12 +113,12 @@ export const DivNewTopic = styled.div`
             color: #707070;
             line-height: 0.5em;
 
-            @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-            font-size: 13px;
+            @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
+                font-size: 13px;
             }
 
             @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            font-size: 10px;
+                font-size: 10px;
             }
         }
 
@@ -157,7 +159,7 @@ export const DivNewTopic = styled.div`
         position: absolute;
         z-index: 0;
 
-        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+        @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
            width: 78vw;
         }
 

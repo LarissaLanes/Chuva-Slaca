@@ -17,16 +17,17 @@ export const DivFooter = styled.div`
         align-items:center;
     }
 
-    @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-        width: 94vw;
+    @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
+        width: 90vw;
+        min-width: 80vw;
     }
 
     div{
         text-align:center;
         margin-top: 1em;
 
-        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-              margin-top: 2em;
+        @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
+              /* margin-top: 2em; */
         }
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -38,9 +39,12 @@ export const DivFooter = styled.div`
 
         img{
             height: 11vh;
+           
 
-            @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+            @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
                 height: 7vh;
+                object-fit: cover;
+                object-position: center;
             }
             
             @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -64,10 +68,11 @@ export const DivFooter = styled.div`
             background: linear-gradient(180deg,#71478e 0%, #341947 100%);
             box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.12);
 
-            @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+            @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
                 height: 2vh;
                 width: 15vh;
                 font-size: 12px;
+                min-height: 3vh;
             }
 
             @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -95,7 +100,7 @@ export const DivFooter = styled.div`
             font-weight: 400;
 
 
-            @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+            @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
                 font-size: 12px;
             }
 
@@ -110,7 +115,7 @@ export const DivFooter = styled.div`
             font-family: 'Quicksand';
             font-weight: 700;
 
-            @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+            @media screen and (min-device-width : 480px) and (max-device-width : 1000px) {
                 font-size:12px;
             }
                

@@ -19,9 +19,9 @@ const VideoPage = () => {
                         <>
                         <h2 id="text-videoh2">Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP </h2>
                         <img src={perfilVideo}/>
-                        <div>
-                        <h1>Beatriz Christiane Melo</h1>
-                        <h3>FCA / Universidade Estadual de Campinas</h3>
+                        <div id="div-text-video">
+                            <h1>Beatriz Christiane Melo</h1>
+                            <h3>FCA / Universidade Estadual de Campinas</h3>
                         </div>
                         </>
                      </article>

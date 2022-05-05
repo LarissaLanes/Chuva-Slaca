@@ -9,8 +9,10 @@ export const DivBar = styled.div `
     background-color: white;
     /* z-index: 1; */
    
-    @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-        grid-template-rows: 0.1fr 0.5fr 3fr;
+    @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
+        /* grid-template-rows: 0.1fr 0.5fr 3fr; */
+        width: 30vw;
+        /* z-index: 1; */
      }
         
     div{
@@ -24,11 +26,11 @@ export const DivBar = styled.div `
             margin-left: 30px;
             min-width: 10vh;
             
-                @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-                    height: 18vh ;
-                    max-height: 20vh;
+                @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
+                    height: 17vh ;
+                    max-height: 25vh;
                     object-fit: cover;
-                    max-width: 25vw;
+                    /* max-width: 25vw; */
                     object-position: center;
                 }
         }
@@ -74,6 +76,12 @@ export const SlacaHeader = styled.div `
     width: 37vh;
     z-index: 0;
 
+    @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
+            width: 30vw;
+            max-width: 35vw;
+            min-width:30vw;
+        }
+
     h1{
         display: flex;
         color: white;
@@ -82,8 +90,8 @@ export const SlacaHeader = styled.div `
         font-family: "Roboto";
         font-style: ;
 
-        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-            font-size: 30px;
+        @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
+            font-size: 20px;
         }
     }
 `

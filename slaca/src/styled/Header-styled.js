@@ -7,18 +7,18 @@ export const DivHeader = styled.div`
     height: 10vh;
     grid-template-columns: 5fr 0.5fr 2fr;
 
-    @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-        height: 100%;
+    @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
+        width: 100%;
     }
 
     main{
         margin-left: 9.3em;
         line-height: 0.5em;
 
-        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-            margin-left: 4em;
-            line-height: 12px;
-            width: 60vw;
+        @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
+            margin-left: 5em;
+            width: 48vw;
+            margin-top: 1em;
         }
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -35,8 +35,8 @@ export const DivHeader = styled.div`
             font-style:normal;
             line-height: 3px;
 
-            @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-                font-size: 13px;
+            @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
+                font-size: 11px;
             }
             
             @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -69,9 +69,9 @@ export const DivHeader = styled.div`
         justify-content:center;
         margin-right: 0.3em ;
 
-        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-            width: 11vw;
-            margin-left: 0.3em;
+        @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
+            /* width: 12vw; */
+            /* margin-left: 0.3em; */
         }
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -83,10 +83,11 @@ export const DivHeader = styled.div`
         display: flex;
         align-items: center;
         
-        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-            display: flex;
+        @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
+            /* display: flex;
             flex-direction:column-reverse;
-            align-items: flex-end;
+            align-items: flex-end; */
+            /* margin-left: 3em; */
         }
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -110,8 +111,9 @@ export const DivHeader = styled.div`
                 font-style: normal;
                 font-weight: 400;
 
-            @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-                font-size: 12px;    
+            @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
+                font-size: 9px;
+                margin-right: 1em;    
             }   
         
             @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
