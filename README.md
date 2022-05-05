@@ -4,6 +4,7 @@ Projeto Front-end desenvolvido para case da empresa CHUVA.
 
 Aplicação React aprimorando conhecimentos em integração com Libs.
 Projeto Responsivo e desenvolvido para Web.
+Foi utilizado também Global Context.
 
 [Deploy](https://slaca.surge.sh/) feito pelo surge
 
