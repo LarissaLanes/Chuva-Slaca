@@ -108,6 +108,11 @@ p{
     align-items: center;
 }
 
+#responses h4{
+    font-family: 'Quicksand';
+
+}
+
 .response2{
     border-bottom: #cfcfcf solid 1px;
 }
