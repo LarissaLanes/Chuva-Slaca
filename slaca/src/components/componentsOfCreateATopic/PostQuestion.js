@@ -15,9 +15,9 @@ const PostQuestion = () => {
         <DivPostQuestion>
             <p>Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p>
             <h3>Assunto</h3>
-            <TextField id="Input" fullWidth label="Defina um tópico sucinto para notificar os autores..." variant="outlined" />
+            <TextField type="text" id="Input" fullWidth label="Defina um tópico sucinto para notificar os autores..." variant="outlined"/>
             <h3>Conteúdo</h3>
-            <TextField rows={4} fullWidth id="Input" multiline variant="outlined" />
+            <TextField rows={3} type="text" fullWidth id="Input" multiline variant="outlined" />
             <div className="border-question">
                 <article>
                     <IconButton>

@@ -11,36 +11,50 @@ export const DivNewTopic = styled.div`
         color: #ED7839;
         font-family: "Roboto";
         font-size: 18px;
-        font-style: "Bold";
+        font-weight: 700;
+        font-style: "normal";
+
+        @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            font-size: 13px;
+        }
     }
 
     h4{
         color: #F48F44;
+        font-family: 'Quicksand';
+        font-weight: 700;
+
+        @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            font-size: 12px;
+        }
     }
 
     h5{
         color: #F48F44;
         text-decoration-line: underline;
         cursor: pointer;
+        font-family: 'Quicksand';
     }
 
     p{
         color:#595959;
         font-size: 14px;
+        font-family: 'Quicksand';
+        font-weight: 400; 
 
-
-        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+        @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
             margin-left: 2em;
         }
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            font-size: 12px;
-            margin-left: 2em;
+            font-size: 11px;
         }
     }
 
     button{
-        width: 14vw;
+        font-family: 'Quicksand';
+        font-weight: 700;
+        width: 15vw;
         height: 4vh;
         border:none;
         color: #FFFFFF;
@@ -51,12 +65,17 @@ export const DivNewTopic = styled.div`
         background: linear-gradient(180deg,#FEB254 0%, #F0813D 100% );
         box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.12);
 
-        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+        @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
            width: 20vw;
+           height: 2em;
+           min-width: 30vw;
          }
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
             width: 40vw;
+            height: 3vh;
+            font-size: 11px;
+
         }
     }
 
@@ -88,25 +107,28 @@ export const DivNewTopic = styled.div`
         transition: all 0.9s;
         -webkit-filter: transition(1px);
 
-        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+        @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
            width: 60vw ;
         }
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            width: 40vw;
+            width: 50vw;
+            min-width: 40vw;
         }
 
         h3{
+            font-family: 'Quicksand';
+            font-weight: 700;
             font-size: 16px;
             color: #707070;
             line-height: 0.5em;
 
-            @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-            font-size: 13px;
+            @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
+                font-size: 13px;
             }
 
             @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            font-size: 10px;
+                font-size: 10px;
             }
         }
 
@@ -115,6 +137,7 @@ export const DivNewTopic = styled.div`
             font-size: 14px;
             text-decoration-line: underline;
             cursor: pointer;
+            font-weight: 500;
 
             @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
             font-size: 10px;
@@ -138,7 +161,7 @@ export const DivNewTopic = styled.div`
         -webkit-filter: blur(3px);
         filter:blur(2px);
         transition: all 0.7s;
-        width: 58vw;
+        width: 63vw;
         padding: 1em;
         border-radius: 4px;
         margin: 1em;
@@ -146,7 +169,7 @@ export const DivNewTopic = styled.div`
         position: absolute;
         z-index: 0;
 
-        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+        @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
            width: 78vw;
         }
 

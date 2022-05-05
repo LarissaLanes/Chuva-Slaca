@@ -7,8 +7,11 @@ export const DivCreated = styled.div`
 
     h3{
         color: #ED7839;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-style: normal;
 
-    @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+    @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
         font-size: 16px;
     }
 
@@ -19,9 +22,15 @@ export const DivCreated = styled.div`
 
     p{
         color: #595959;
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 400;
+        display: flex;
+        flex-wrap:wrap;
 
-    @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-        font-size: 15px
+    @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
+        font-size: 12px;
+        margin-left: 4em;
     }
 
     @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -35,7 +44,7 @@ export const DivCreated = styled.div`
          display: flex;
          gap: 4em;
 
-         @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+         @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
             gap: 2em;
         }
 
@@ -50,6 +59,8 @@ export const DivCreated = styled.div`
      }
 
     button{
+        font-family: 'Quicksand';
+        font-weight: 700;
         margin-bottom: 3em;
         width: 9vw;
         align-items:center;
@@ -58,19 +69,26 @@ export const DivCreated = styled.div`
         height: 4vh;
         border:none;
         color: #FFFFFF;
-        font-size: 17px;
+        font-size: 15px;
         border-radius: 3px;
         transition: all 0.9s;
         -webkit-filter: transition(1px);
         background: linear-gradient(180deg,#FEB254 0%, #F0813D 100% );
         box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.12);
 
-        @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-            width: 18vw;
+        @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
+            width: 20vw;
+            height: 3vh;
+            max-height: 4vh;
+            min-width: 30vw;
         }
 
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
             width: 38vw;  
+            height: 3.5vh;
+            max-height: 4vh;
+            min-width: 30vw;
+            font-size: 11px;
         }
     }
 

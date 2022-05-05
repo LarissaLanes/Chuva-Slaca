@@ -1,9 +1,10 @@
 import { DivVideo, Section1, Section2 } from "../styled/VideoPage-styled";
 import "../styled/style.css";
-import perfilVideo from "../assets/perfil.png"
 import StarRoundedIcon from '@mui/icons-material/StarRounded';
 import DownloadRoundedIcon from '@mui/icons-material/DownloadRounded';
 import doi from "../assets/doi.png"
+import dowload from "../assets/download.png"
+import TextVideo from "./TextVideo";
 
 
 const VideoPage = () => {
@@ -15,14 +16,7 @@ const VideoPage = () => {
                 </div> 
                 <section className="background-image" id="image-video">
                     <article>
-                        <>
-                        <h2>Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP </h2>
-                        <img src={perfilVideo}/>
-                        <div>
-                        <h1>Beatriz Christiane Melo</h1>
-                        <h3>FCA / Universidade Estadual de Campinas</h3>
-                        </div>
-                        </>
+                        <TextVideo/>
                      </article>
                 </section> 
             </Section1>
@@ -31,7 +25,8 @@ const VideoPage = () => {
                     <ul>
                         <li>
                             <button id="Button-download">
-                                <DownloadRoundedIcon/>
+                                {/* <DownloadRoundedIcon/> */}
+                                <img src={dowload}/>
                                 Download
                             </button>
                         </li>
@@ -73,7 +68,7 @@ const VideoPage = () => {
                         Stephen Hawking⁴
                         <br/>
                         <h4>
-                         ¹Universidade Estadual de Campinas
+                        ¹Universidade Estadual de Campinas
                         ²Universidade de São Paulo
                         ³Instituto Nacional de Pesquisas Espaciais
                         ⁴Universidade Federal do Rio de Janeiro.

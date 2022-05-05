@@ -8,6 +8,8 @@ import Typography from '@mui/material/Typography';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import "../styled/style.css"
 import check from "../assets/checkOrange.png"
+import quadro from "../assets/button bgqaudro.png"
+import heart from "../assets/green apples 22heart.png"
 
 const Questions = () => {
     return (
@@ -20,16 +22,18 @@ const Questions = () => {
                             <h5>Carlos Henrique Santos</h5>
                             <p>Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...</p>
                             <aside>
-                                <MoreVertRoundedIcon color="warning" />
-                                <FavoriteRoundedIcon color="warning" />
-                                1 like
-                                1 resposta
+                                <MoreVertRoundedIcon color="warning" id="tres-pontos"/>
+                                <img id="quadro" src={quadro}/>
+                                <FavoriteRoundedIcon id="heart"/>
+                                <div id="text-likes">
+                                    1 like
+                                    1 resposta
+                                </div>
                             </aside>
                         </Typography>
                     </AccordionSummary>
                     <AccordionDetails className="response1">
                         <Typography sx={{ width: "95%", flexShrink: 0 }} >
-
                             <div id="responses">
                                 <h5>Adriano da Silva</h5>
                                 <>
