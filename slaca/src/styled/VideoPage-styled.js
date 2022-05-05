@@ -61,13 +61,13 @@ export const Section1 = styled.div`
     
     section{
         @media screen and (min-device-width : 481px) and (max-device-width : 1000px) {
-            height: 45vh;
-            border: solid red;
+            height: 40vh;
+            /* border: solid red; */
         }
 
          
         @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-                border: solid green;
+                /* border: solid green; */
                 height: 35vh;
             }
         
@@ -92,9 +92,10 @@ export const Section1 = styled.div`
             
              @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
                 width: 50vw;
-                height: 22vh;
+                height: 21vh;
+                max-height: 25vh;
                 min-width: 89vw;
-                min-height: 13vh;
+                min-height: 21vh;
             }
 
             /* h1{
@@ -107,7 +108,7 @@ export const Section1 = styled.div`
                 }
             } */
 
-            div{
+            /* div{
                 margin-left: 2em;
                 display: inline-block;
                 line-height: 0.5em;
@@ -115,7 +116,7 @@ export const Section1 = styled.div`
                 @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
                     margin-left: 8em ;
                 }
-            }
+            } */
 
             /* h3, h2{
                 color: white;
@@ -148,7 +149,7 @@ export const Section1 = styled.div`
                     width: 12vw;
                     height: 6vh;
                 } */
-            }
+            /* } */
         }        
     }
 `
