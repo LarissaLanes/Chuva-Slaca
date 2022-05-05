@@ -1,19 +1,34 @@
-# Chuva-Slaca 🌧️
+### SLACA-CHUVA 🌧️
 
-Projeto slaca para case da Chuva.
-#
-#### Projeto desenvolvido em javascript utilizando como frameworks: React, styled-components ,Material-UI.
+Projeto Front-end desenvolvido para case da empresa CHUVA.
 
-Deploy feito pelo surge. [deploy](https://slaca.surge.sh/)
+Aplicação React aprimorando conhecimentos em integração com Libs.
+Projeto Responsivo e desenvolvido para Web.
 
-![image](https://user-images.githubusercontent.com/91152234/166127354-fbda4262-fcd9-467e-913c-159059d79dba.png)
-![image](https://user-images.githubusercontent.com/91152234/166127365-861c0efe-ba2a-4227-8722-f76489458caa.png)
-![image](https://user-images.githubusercontent.com/91152234/166127378-0619cbad-090e-4145-946a-08cf1e2063ea.png)
-![image](https://user-images.githubusercontent.com/91152234/166127388-c39c8270-ac2f-41b0-9af8-b0855feb4997.png)
-![image](https://user-images.githubusercontent.com/91152234/166127394-725e58a8-00d8-4709-9c4e-094298d8c1db.png)
-![image](https://user-images.githubusercontent.com/91152234/166127403-85b6b6d7-6045-413a-9f18-f773966e14c1.png)
-![image](https://user-images.githubusercontent.com/91152234/166127412-cd6d303d-656e-4d4b-9855-db91dd7c5c65.png)
-![image](https://user-images.githubusercontent.com/91152234/166127432-5b7e2df4-e8b5-47cd-9b26-28db96301c52.png)
+[Deploy](https://slaca.surge.sh/) feito pelo surge
 
-#### Projeto 60% responsivo.
+### Construído com: 🛠️
+* React
+* Javascript
+* HTML e CSS
+* Responsividade feita com @media query
+
+Libs:
+* MaterialUI
+* Styled-componets
+
+Desenvolvedor: Larissa Lanes
+
+### Prints Arts
+
+![image](https://user-images.githubusercontent.com/91152234/167030076-413f09cd-6afc-47a6-a2c8-20b378d4d7d7.png)
+![image](https://user-images.githubusercontent.com/91152234/167030151-e0e406da-7d04-44a0-9c15-72bbde65c92c.png)
+![image](https://user-images.githubusercontent.com/91152234/167030265-3be4e9e2-aa63-464b-b8af-85ed8f155a1f.png)
+![image](https://user-images.githubusercontent.com/91152234/167030349-9181276a-2607-495f-bae5-2bb410c72931.png)
+![image](https://user-images.githubusercontent.com/91152234/167030415-9e4df648-bf6f-47ac-81a2-adb00d5b4afa.png)
+
+
+
+
+
 
